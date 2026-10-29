@@ -1,0 +1,114 @@
+/* ======================================================================
+   ZOLV / OUR RANGE — Section 02, approved carton/sachet artwork (V8)
+   No dependencies; independent from the locked Hero/Header styles.
+   ====================================================================== */
+.collection-section {
+  width:100%;max-width:var(--page-max);margin:0 auto;
+  isolation:isolate;overflow:clip;background:#fff;
+}
+.collection-section__inner{padding:20px clamp(22px,3vw,46px) 34px;}
+.collection-section__heading-row{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  gap:25px;min-height:137px;
+}
+.collection-section__eyebrow{
+  margin:0 0 5px;font-size:clamp(9px,.71vw,11px);line-height:1.1;
+  font-style:italic;font-weight:800;letter-spacing:.26em;color:#161616;
+}
+.collection-section__title{
+  margin:0;font-family:var(--font-display);font-size:clamp(38px,4vw,62px);
+  font-weight:950;letter-spacing:-.073em;line-height:.92;font-style:italic;
+  text-transform:uppercase;transform:skew(-2deg);color:#070707;
+}
+.collection-section__title span{display:block;white-space:nowrap;}
+.collection-section__title mark{
+  color:#060606;background:#d8ff00;padding:0 .075em .01em;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone;
+  display:inline-block;transform:rotate(-4deg) translateY(-.015em);
+}
+.collection-section__aside{
+  min-width:270px;display:grid;justify-items:end;gap:13px;padding:13px 4px 0 0;
+}
+.collection-section__aside p{font-size:13px;font-weight:500;line-height:1.45;margin:0;text-align:left;}
+/* Each product owns its actual photo, caption and CTA, so image/copy can never get out of sync. */
+.collection-section__grid{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:clamp(12px,1.1vw,20px);margin:3px 0 0;
+}
+.collection-product{display:flex;flex-direction:column;align-items:stretch;min-width:0;text-align:center;}
+.collection-product__visual{
+  width:100%;height:clamp(235px,32vw,510px);min-width:0;
+  display:flex;align-items:flex-end;justify-content:center;overflow:hidden;
+  background:transparent;
+  transition:height .3s ease;
+}
+.collection-product__visual img{
+  display:block;max-height:100%;width:100%;height:100%;object-fit:contain;
+  object-position:center bottom;
+  mix-blend-mode:normal;filter:drop-shadow(0 9px 8px rgba(28,16,12,.13));
+}
+.collection-product__info{display:flex;flex-direction:column;align-items:center;flex:1;padding:12px 6px 0;}
+.collection-product h3{margin:0 0 4px;font:italic 950 clamp(17px,1.55vw,22px)/1.1 var(--font-display);letter-spacing:-.045em;}
+.collection-product p{margin:0 0 16px;min-height:38px;font-size:clamp(12px,.99vw,16px);line-height:1.18;font-weight:500;letter-spacing:-.02em;}
+.collection-product button{
+  border:0;width:clamp(130px,17vw,235px);max-width:100%;min-height:49px;
+  margin-top:auto;border-radius:999px;font-size:clamp(11px,.92vw,14px);
+  font-family:var(--font-ui);font-weight:900;cursor:pointer;color:#060606;
+  display:inline-flex;align-items:center;justify-content:center;gap:13px;
+  transition:transform .22s var(--ease-out),filter .2s,box-shadow .2s;
+}
+.collection-product button:hover{transform:translateY(-3px);filter:brightness(1.04);box-shadow:0 7px 20px rgba(0,0,0,.12);}
+.collection-product button span{font-size:22px;line-height:.8;font-weight:400;}
+.collection-product--energy button{background:#d2ff13;}
+.collection-product--sleep button{background:linear-gradient(110deg,#c77aff,#9c51fc);}
+.collection-product--focus button{background:linear-gradient(110deg,#ff77a7,#f94389);}
+.collection-product--nad button{background:linear-gradient(110deg,#089cfc,#087de8);color:#fff;}
+@media(min-width:901px) and (max-width:1150px){
+  .collection-section__heading-row{min-height:127px;}
+  .collection-section__title{font-size:clamp(33px,4.3vw,48px);}
+  .collection-section__aside p{font-size:12px;}
+  .collection-product p{font-size:12px;}
+  .collection-product button{min-height:43px;}
+}
+@media(max-width:900px){
+  .collection-section__inner{padding:32px 18px 35px;}
+  .collection-section__heading-row{min-height:0;gap:14px;}
+  .collection-section__title{font-size:clamp(32px,6vw,52px);}
+  .collection-section__aside{min-width:0;padding-top:10px;gap:18px;}
+  .collection-section__aside p{font-size:12px;}
+    .collection-section__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px;margin-top:21px;}
+  .collection-product__visual{height:clamp(230px,47vw,420px);}
+  .collection-product h3{font-size:21px;}
+  .collection-product p{font-size:13px;min-height:32px;}
+  .collection-product button{width:100%;min-height:43px;font-size:12px;}
+}
+@media(max-width:580px){
+  .collection-section__inner{padding:26px 12px 36px;}
+  .collection-section__heading-row{flex-direction:column;gap:8px;}
+  .collection-section__title{font-size:clamp(31px,9.25vw,48px);}
+  .collection-section__aside{padding:5px 3px 0;display:flex;align-items:center;justify-content:space-between;width:100%;}
+  .collection-section__aside p{font-size:11.5px;}
+        .collection-section__grid{gap:19px 9px;margin-top:15px;}
+  .collection-product__visual{height:clamp(210px,64vw,340px);}
+  .collection-product__info{padding:5px 2px 0;}
+  .collection-product h3{font-size:18px;}
+  .collection-product p{font-size:11.5px;margin-bottom:10px;min-height:39px;}
+  .collection-product button{font-size:10px;min-height:39px;gap:8px;}
+  .collection-product button span{font-size:17px;}
+}
+@media(max-width:350px){
+  .collection-section__aside p{font-size:10px;}
+  .collection-section__title{font-size:30px;}
+  .collection-product h3{font-size:16px;}
+  .collection-product p{font-size:10.5px;}
+  .collection-product button{font-size:9px;}
+}
+@media(prefers-reduced-motion:reduce){
+  .collection-product__visual,.collection-product button{transition:none!important}
+}
+
+/* V9: Real-alpha art preserves natural pack edges, without rectangular mattes. */
+.collection-product__visual{background:none;}
+.collection-product__visual img{background:transparent;}
+.collection-product__info{min-height:126px;}
+@media(max-width:580px){.collection-product__info{min-height:122px;}}

@@ -1,0 +1,27 @@
+/* ========================================================================
+   ZOLV / TOKENS — One source for brand colours, radii, motion and page scale.
+   ======================================================================== */
+:root {
+  color-scheme: light;
+  --ink: #080808;
+  --paper: #fff;
+  --electric: #ccff00;
+  --electric-hover: #b9ec00;
+  --hero-white: #f5f7f7;
+  --black: #050505;
+  --font-ui: Arial, Helvetica, sans-serif;
+  --font-display: 'Arial Black', Impact, Arial, Helvetica, sans-serif;
+  --page-max: 1540px;
+  --ease-out: cubic-bezier(.2,.8,.25,1);
+  --focus-ring: 3px solid #a036fe;
+}
+
+
+/* V30 — The official glossy wordmark spectrum, used as secondary accents only.
+   Primary CTA lime and the individual formula colours remain unchanged. */
+:root {
+  --zolv-neon-blue: #465cff;
+  --zolv-neon-violet: #973dff;
+  --zolv-neon-magenta: #f92d9f;
+  --zolv-neon-spectrum: linear-gradient(105deg,var(--zolv-neon-blue) 0%,var(--zolv-neon-violet) 53%,var(--zolv-neon-magenta) 100%);
+}

@@ -1,0 +1,101 @@
+/* ======================================================================
+   ZOLV / FOOTER V23 — Isolated visual system; never edits approved sections.
+   Smooth silver retina logo, continuous dark ground, subtle tongue motif.
+   ====================================================================== */
+.zolv-footer{position:relative;isolation:isolate;overflow:hidden;color:#fff;background:radial-gradient(ellipse at 18% 12%,rgba(255,255,255,.05) 0%,transparent 48%),linear-gradient(154deg,#0a0a0d 0%,#050506 65%,#030304 100%);min-height:360px;padding:clamp(72px,7vw,112px) clamp(23px,4.2vw,72px) 29px}
+.zolv-footer *{box-sizing:border-box}
+/* V25: removed diagonal gloss overlay; footer keeps subtle tongue artwork only. */
+.zolv-footer__tongue{position:absolute;right:clamp(-75px,-2vw,-12px);top:5%;width:clamp(310px,34vw,570px);height:92%;background:url('../images/footer/zolv-tongue-accent.webp') center 38%/cover no-repeat;opacity:.22;filter:brightness(.55) saturate(.7);-webkit-mask-image:radial-gradient(ellipse 62% 71% at 62% 47%,#000 9%,transparent 94%);mask-image:radial-gradient(ellipse 62% 71% at 62% 47%,#000 9%,transparent 94%);pointer-events:none;z-index:0}
+.zolv-footer__edge{display:block;position:absolute;top:-1px;left:-1px;width:calc(100% + 2px);height:clamp(24px,3.2vw,48px);z-index:2;pointer-events:none}
+.zolv-footer::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 30%,#02030720 80%),linear-gradient(180deg,transparent 14%,#02030625 54%,#020206ad 100%);pointer-events:none;z-index:0}
+.zolv-footer__inner{position:relative;z-index:1;max-width:1430px;margin-inline:auto}
+.zolv-footer__main{display:grid;grid-template-columns:minmax(190px,1.25fr) minmax(95px,.61fr) minmax(130px,.75fr) minmax(130px,.76fr) minmax(230px,1.35fr);column-gap:clamp(18px,2.95vw,55px);row-gap:26px;align-items:start}
+.zolv-footer__brand-col{min-width:0}
+.zolv-footer__logo{display:inline-block;max-width:100%;width:clamp(174px,16.4vw,235px);transform:translateY(-10px);transition:opacity .2s}
+.zolv-footer__logo:hover{opacity:.88}
+.zolv-footer__logo img{display:block;width:100%;height:auto;object-fit:contain;filter:none}
+.zolv-footer__tagline{color:#e0e2e8;letter-spacing:.03em;font-weight:650;font-size:clamp(11px,.84vw,13px);margin:2px 0 20px}
+.zolv-footer__social{display:flex;flex-wrap:wrap;gap:10px}
+.zolv-footer__social-icon{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;background:#090b10d6;color:#fff;border:1px solid #9296a58c;border-radius:50%;cursor:pointer;transition:background .2s,border-color .2s,transform .2s}
+.zolv-footer__social-icon:hover{background:#17191d;border-color:#cfff00;transform:translateY(-2px)}
+.zolv-footer__social-icon svg{width:19px;height:19px;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;fill:none}
+.zolv-footer__social-icon svg .fill-dot{fill:currentColor;stroke:none}
+.zolv-footer__links h2,.zolv-footer__signup h2{margin:0 0 13px;color:#fff;font:900 clamp(12px,.93vw,14px)/1.3 Arial,Helvetica,sans-serif;letter-spacing:.025em}
+.zolv-footer__links ul{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.zolv-footer__links a,.zolv-footer__links button,.zolv-footer__legal button{background:none;border:0;text-align:left;color:#d6d9e0;cursor:pointer;text-decoration:none;padding:0;font:400 clamp(12px,.92vw,14px)/1.27 Arial,Helvetica,sans-serif;transition:color .2s}
+.zolv-footer__links a:hover,.zolv-footer__links button:hover,.zolv-footer__legal button:hover{color:#cfff00}
+.zolv-footer__signup{max-width:350px;min-width:0}
+.zolv-footer__signup p{margin:0 0 15px;color:#d7d9de;font-size:clamp(12px,.92vw,14px);line-height:1.55;max-width:300px}
+.zolv-footer__form{display:flex;align-items:center;position:relative;background:#111317;border:1px solid rgba(255,255,255,.19);border-radius:100px;min-height:55px;box-shadow:0 10px 30px #0005;transition:border-color .2s,box-shadow .2s}
+.zolv-footer__form:focus-within{border-color:#cfff00;box-shadow:0 0 0 3px #cfff0030}
+.zolv-footer__form input{min-width:0;flex:1;border:0;outline:0;background:transparent;font:500 14px/1 Arial,Helvetica,sans-serif;color:#fff;padding:16px 10px 16px 20px}
+.zolv-footer__form input::placeholder{color:#c5c6cc;opacity:1}
+.zolv-footer__form button{flex:0 0 43px;width:43px;height:43px;display:grid;place-items:center;margin-right:5px;border-radius:50%;background:#cfff00;border:0;color:#020202;font:700 24px/1 Arial,sans-serif;cursor:pointer;transition:transform .2s,background .2s}
+.zolv-footer__form button:hover{background:#e4ff70;transform:scale(1.055)}
+.zolv-footer__signup .zolv-footer__signup-note{color:#a4a8b3;font-size:10px;line-height:1.4;margin:10px 0 0}
+.zolv-footer__bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:40px;padding-top:21px;border-top:1px solid #ffffff27}
+.zolv-footer__bottom p{font-size:12px;color:#c2c4cb;margin:0;white-space:nowrap}
+.zolv-footer__legal{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:clamp(15px,2.1vw,30px)}
+.zolv-footer__legal button{font-size:12px;color:#c1c3cc}
+.zolv-footer :is(a,button,input):focus-visible{outline:3px solid #cfff00;outline-offset:4px}
+.zolv-footer .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1100px){.zolv-footer__main{grid-template-columns:minmax(185px,1.1fr) repeat(3,minmax(90px,.55fr)) minmax(180px,1.2fr);gap:23px}.zolv-footer{padding-inline:31px}.zolv-footer__form{min-height:50px}.zolv-footer__form button{width:40px;height:40px;flex-basis:40px}}
+@media(max-width:850px){.zolv-footer{padding:72px 28px 26px}.zolv-footer__main{grid-template-columns:1.2fr 1fr 1fr 1fr;row-gap:36px}.zolv-footer__brand-col{grid-column:1 / 3}.zolv-footer__signup{grid-column:3 / 5;grid-row:1}.zolv-footer__links{grid-row:2}.zolv-footer__links:nth-of-type(1){grid-column:1 / 2}.zolv-footer__links:nth-of-type(2){grid-column:2 / 3}.zolv-footer__links:nth-of-type(3){grid-column:3 / 5}.zolv-footer__bottom{margin-top:35px}}
+@media(max-width:600px){.zolv-footer{padding:68px 22px 25px}.zolv-footer__tongue{right:-155px;top:2%;width:420px;opacity:.09}.zolv-footer__main{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px;row-gap:31px}.zolv-footer__brand-col{grid-column:1 / 3}.zolv-footer__logo{width:190px}.zolv-footer__tagline{margin-top:-2px;margin-bottom:16px}.zolv-footer__signup{grid-column:1 / 3;grid-row:2;max-width:none}.zolv-footer__signup p{max-width:440px}.zolv-footer__links{grid-row:auto!important;grid-column:auto!important}.zolv-footer__links h2,.zolv-footer__signup h2{font-size:13px;margin-bottom:11px}.zolv-footer__links ul{gap:10px}.zolv-footer__links a,.zolv-footer__links button{font-size:13px}.zolv-footer__bottom{margin-top:31px;flex-direction:column;align-items:flex-start;gap:17px}.zolv-footer__legal{justify-content:flex-start;gap:14px 21px}.zolv-footer__bottom p{font-size:11px}}
+@media(max-width:365px){.zolv-footer{padding-inline:17px}.zolv-footer__main{column-gap:17px}.zolv-footer__social{gap:9px}}
+@media(prefers-reduced-motion:reduce){.zolv-footer :is(a,button){transition:none!important}}
+
+/* Floating live-message UI / local preview only. Scoped to avoid existing CSS. */
+.zolv-chat{font-family:Arial,Helvetica,sans-serif;color:#111}
+.zolv-chat *{box-sizing:border-box}
+.zolv-chat__launcher{position:fixed;right:max(18px,env(safe-area-inset-right));bottom:max(19px,env(safe-area-inset-bottom));z-index:1100;width:62px;height:62px;padding:16px;border:1px solid #e4ff78;border-radius:50%;background:#cfff00;color:#080908;box-shadow:0 10px 35px #0006,0 0 0 4px #cfff0018;display:grid;place-items:center;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.zolv-chat__launcher:hover{transform:translateY(-3px);box-shadow:0 12px 36px #0007,0 0 0 6px #cfff0022}
+.zolv-chat__launcher svg{width:30px;height:30px}
+.zolv-chat__badge{position:absolute;right:7px;top:8px;width:10px;height:10px;border-radius:50%;background:#303436;border:2px solid #cfff00}
+.zolv-chat__panel{position:fixed;right:max(18px,env(safe-area-inset-right));bottom:calc(max(19px,env(safe-area-inset-bottom)) + 76px);z-index:1100;width:min(375px,calc(100vw - 30px));height:min(495px,calc(100dvh - 135px));min-height:300px;display:flex;flex-direction:column;overflow:hidden;border-radius:22px;background:#fbfbf8;color:#17191a;box-shadow:0 24px 90px #0008;border:1px solid #ffffff5e}
+.zolv-chat__panel[hidden]{display:none!important}
+.zolv-chat__head{background:#090b10;color:#fff;display:flex;align-items:center;gap:12px;padding:20px 17px;flex-shrink:0}
+.zolv-chat__glyph{display:grid;place-items:center;border-radius:11px;width:36px;height:36px;flex:0 0 36px;background:#cfff00;color:#0a0c0a;font-weight:900;font-size:22px}
+.zolv-chat__head h2{font-size:16px;line-height:1.2;margin:0 0 4px;font-weight:800}
+.zolv-chat__head p{font-size:10px;line-height:1.35;margin:0;color:#c4c7c8}
+.zolv-chat__close{margin-left:auto;border:1px solid #fff5;background:transparent;color:#fff;border-radius:50%;width:34px;height:34px;flex:0 0 34px;cursor:pointer;font-size:24px;line-height:1}
+.zolv-chat__feed{padding:18px;display:flex;flex:1;min-height:0;flex-direction:column;align-items:flex-start;gap:11px;overflow-y:auto;overscroll-behavior:contain}
+.zolv-chat__bubble{font-size:13px;line-height:1.55;max-width:94%;padding:12px 14px;margin:0;border-radius:15px 15px 15px 3px;white-space:pre-wrap;overflow-wrap:anywhere}
+.zolv-chat__bubble--support{background:#e9ebe5;color:#232624}
+.zolv-chat__bubble--visitor{align-self:flex-end;border-radius:15px 15px 3px 15px;background:#d9fc65;color:#15200c}
+.zolv-chat__topics{display:flex;flex-wrap:wrap;gap:7px;padding:0 16px 12px}
+.zolv-chat__topics button{font:700 11px/1.15 Arial,sans-serif;border:1px solid #b4ce7c;border-radius:100px;background:#f3f9e9;color:#263b0d;padding:9px 11px;cursor:pointer}
+.zolv-chat__topics button:hover{background:#e4ffc2}
+.zolv-chat__composer{display:flex;align-items:center;gap:8px;margin:0 14px;background:#fff;border:1px solid #d4d8d0;border-radius:100px;padding:5px 5px 5px 15px;flex-shrink:0}
+.zolv-chat__composer input{border:0;background:transparent;outline:0;width:100%;min-width:0;font:13px Arial,sans-serif;color:#111}
+.zolv-chat__composer button{width:37px;height:37px;flex:0 0 37px;border:0;border-radius:50%;display:grid;place-items:center;background:#cfff00;color:#0c1703;cursor:pointer}
+.zolv-chat__composer button svg{width:20px;height:20px}
+.zolv-chat__notice{font-size:9px;line-height:1.35;letter-spacing:.045em;font-weight:700;text-align:center;color:#677069;margin:9px 12px 13px}
+.zolv-chat :is(button,input):focus-visible{outline:3px solid #a036fe;outline-offset:3px}
+@media(max-width:480px){.zolv-chat__launcher{width:56px;height:56px;padding:12px;right:15px;bottom:max(15px,env(safe-area-inset-bottom))}.zolv-chat__panel{right:12px;bottom:calc(max(15px,env(safe-area-inset-bottom)) + 69px);width:calc(100vw - 24px);height:min(490px,calc(100dvh - 110px))}}
+@media(prefers-reduced-motion:reduce){.zolv-chat__launcher{transition:none}}
+.zolv-chat .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* Keep floating chat control clear of footer legal text. */
+@media(min-width:601px){.zolv-footer__legal{padding-right:76px}}
+@media(max-width:600px){.zolv-footer__bottom{padding-bottom:71px}}
+
+/* V27 — fast navigation in footer + optional floating return control */
+.zolv-footer__back-to-top{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-left:auto;padding:10px 13px;border:1px solid #ffffff57;border-radius:999px;color:#fff;font:800 11px/1 Arial,Helvetica,sans-serif;white-space:nowrap;letter-spacing:.09em;text-decoration:none;transition:background .2s,color .2s}
+.zolv-footer__back-to-top span{font-size:19px;color:#d3ff00;line-height:.7}
+.zolv-footer__back-to-top:hover{background:#d3ff00;color:#080808}
+.zolv-footer__back-to-top:hover span{color:#080808}
+.zolv-back-top--floating{position:fixed;right:max(20px,env(safe-area-inset-right));bottom:calc(max(19px,env(safe-area-inset-bottom)) + 77px);z-index:1090;display:grid;place-items:center;width:46px;height:46px;border-radius:50%;border:1px solid #d2ff50;background:#101210;color:#d8ff00;box-shadow:0 8px 24px #0005;cursor:pointer;opacity:1;transition:transform .18s}
+.zolv-back-top--floating[hidden]{display:none!important}
+.zolv-back-top--floating svg{height:21px;width:21px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.zolv-back-top--floating:hover{transform:translateY(-3px)}
+.zolv-back-top--floating:focus-visible{outline:3px solid #d6ff00;outline-offset:3px}
+@media(max-width:850px){.zolv-footer__bottom{flex-wrap:wrap}.zolv-footer__back-to-top{order:2}.zolv-footer__legal{order:3;width:100%;justify-content:flex-start}}
+@media(max-width:600px){.zolv-footer__back-to-top{margin-left:0;margin-top:2px}.zolv-back-top--floating{right:19px;bottom:calc(max(15px,env(safe-area-inset-bottom)) + 68px);width:43px;height:43px}}
+@media(prefers-reduced-motion:reduce){.zolv-back-top--floating{transition:none}}
+
+
+/* V30 — intentional neon micro accents echo the primary black logo.
+   Lime remains the main interactive colour; no decorative halo around footer logo. */
+.zolv-footer__social-icon:hover {border-color:var(--zolv-neon-violet)}
+.zolv-footer__bottom {border-image:var(--zolv-neon-spectrum) 1; border-width:1px 0 0; border-style:solid}
+

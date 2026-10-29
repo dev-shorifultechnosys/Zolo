@@ -1,0 +1,63 @@
+/* ZOLV — SECTION 03 (FILM) + SECTION 04 (LIFESTYLE)
+   Standalone file: no modifications to approved Section 01 / 02 selectors.
+   Photos are responsive, local WebP; 16:9 promotional MP4 is local H.264.
+   Focus states, alt text, reduced motion, and mobile optimizations included. */
+.film-section{background:#070809;color:#fff;padding:clamp(20px,2.6vw,46px) clamp(14px,2vw,36px);isolation:isolate}
+.film-section__frame{position:relative;max-width:1660px;margin-inline:auto;min-height:clamp(360px,37vw,600px);border:1px solid rgba(255,255,255,.14);border-radius:18px;overflow:hidden;background:#08090c}
+.film-section__media{position:absolute;inset:0;overflow:hidden}
+.film-section__video{display:block;width:100%;height:100%;object-fit:cover;object-position:center 54%;background:#08080b}
+.film-section__video-shade{pointer-events:none;position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,3,8,.98) 0%,rgba(3,3,8,.96) 18%,rgba(3,3,8,.82) 35%,rgba(3,3,8,.35) 62%,rgba(3,3,8,.04) 100%)}
+.film-section__copy{position:relative;z-index:2;pointer-events:none;width:min(56%,740px);padding:clamp(35px,5.6vw,90px) clamp(25px,5.3vw,100px)}
+.film-section__eyebrow{display:flex;align-items:center;gap:9px;font-size:clamp(10px,.8vw,13px);font-weight:800;letter-spacing:.20em;white-space:nowrap}
+.film-section__dot{width:7px;height:7px;border-radius:50%;background:#c6fc00;box-shadow:0 0 10px #c6fc00}
+.film-section__duration{color:#9fa1ac}
+.film-section h2{margin:26px 0 20px;font-size:clamp(38px,5.5vw,88px);font-weight:950;line-height:.91;letter-spacing:-.07em;font-style:italic;text-transform:uppercase}
+.film-section h2 em{color:#c6fc00;font-style:inherit}
+.film-section__copy>p:not(.film-section__eyebrow){max-width:370px;color:#d1d2d7;font-size:clamp(13px,1.1vw,17px);line-height:1.52}
+.film-section__link{pointer-events:auto;display:inline-flex;align-items:center;gap:16px;margin-top:26px;color:white;text-decoration:none;font-size:12px;font-weight:900;letter-spacing:.05em;border-bottom:2px solid #c6fc00;padding-bottom:8px}
+.film-section__link:hover,.film-section__link:focus-visible{color:#c6fc00}
+.film-section__play{position:absolute;z-index:3;top:49%;left:75%;transform:translate(-50%,-50%);display:flex;flex-direction:column;gap:11px;align-items:center;justify-content:center;padding:16px;border:0;background:none;color:#fff;cursor:pointer;font-weight:800;font-size:11px;letter-spacing:.08em;text-shadow:0 2px 15px black}
+.film-section__play svg{width:72px;height:72px;padding:20px;fill:currentColor;border:1.5px solid rgba(255,255,255,.9);border-radius:50%;background:rgba(0,0,0,.35);backdrop-filter:blur(5px);transition:background .2s,transform .2s}
+.film-section__play:hover svg{background:#bfff00;color:#000;transform:scale(1.06)}
+.film-section__play[hidden]{display:none}
+.film-section__sound{position:absolute;right:20px;top:20px;z-index:4;display:flex;gap:7px;align-items:center;border:1px solid #ffffff66;border-radius:30px;background:#0009;backdrop-filter:blur(8px);color:white;font-size:10px;font-weight:800;letter-spacing:.06em;padding:9px 12px;cursor:pointer}
+.film-section__sound svg{height:17px;width:17px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.film-section__sound:hover{border-color:#c6fc00}
+.lifestyle-section{padding:clamp(14px,1.7vw,26px);background:#fff}
+.lifestyle-section__grid{max-width:1660px;margin-inline:auto;display:grid;grid-template-columns:1.42fr 1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr));gap:clamp(7px,.8vw,12px);height:clamp(350px,31.8vw,545px)}
+.lifestyle-card{position:relative;min-width:0;min-height:0;display:block;overflow:hidden;color:#fff;background:#111b20;border-radius:13px;isolation:isolate}
+.lifestyle-card img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .65s cubic-bezier(.22,1,.36,1)}
+.lifestyle-card--feature{grid-row:1 / span 2}
+.lifestyle-card--feature img{object-position:center}
+.lifestyle-card--feature:after{content:"";pointer-events:none;position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.34),transparent 66%)}
+.lifestyle-card__headline{position:absolute;z-index:2;top:clamp(22px,3vw,58px);left:clamp(21px,3vw,53px);max-width:55%;text-shadow:0 2px 12px #0009}
+.lifestyle-card__micro{margin:0 0 15px;font-size:10px;font-weight:850;letter-spacing:.16em;color:#d5ff4f}
+.lifestyle-card h2{font-family:inherit;font-size:clamp(31px,3.55vw,61px);font-style:italic;font-weight:950;letter-spacing:-.065em;line-height:1.04;margin:0;transform:skew(-5deg);text-transform:uppercase}
+.lifestyle-card__scribble{display:block;background:#c6ff00;height:6px;width:72%;border-radius:60%;margin-top:16px;transform:rotate(-5deg);box-shadow:0 9px 0 -2px #c6ff00}
+.lifestyle-card--minor:after{content:"";pointer-events:none;position:absolute;inset:0;background:linear-gradient(180deg,transparent 28%,rgba(0,0,0,.08) 49%,rgba(0,0,0,.82) 100%)}
+.lifestyle-card--minor img{object-position:center 40%}
+.lifestyle-card--minor:hover img,.lifestyle-card--minor:focus-visible img{transform:scale(1.065)}
+.lifestyle-card--minor:focus-visible{outline:3px solid #abf500;outline-offset:2px}
+.lifestyle-card__label{position:absolute;bottom:clamp(12px,1.4vw,23px);left:clamp(12px,1.35vw,23px);right:clamp(10px,1vw,18px);z-index:2;display:flex;gap:9px;align-items:center;color:white;font-size:clamp(10px,1.06vw,16px);font-weight:900;font-style:italic;line-height:1.15;text-shadow:0 2px 12px #000;white-space:normal}
+.lifestyle-card__label svg{width:22px;height:22px;flex:none;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.lifestyle-card__link-arrow{margin-left:auto;opacity:0;transition:opacity .2s}
+.lifestyle-card--minor:hover .lifestyle-card__link-arrow,.lifestyle-card--minor:focus-visible .lifestyle-card__link-arrow{opacity:1}
+@media(max-width:1100px){.film-section__copy{width:61%;}.film-section h2{font-size:clamp(36px,5.4vw,65px)}.lifestyle-section__grid{grid-template-columns:1.35fr 1fr 1fr;height:clamp(340px,35vw,440px)}.lifestyle-card__headline{max-width:58%}.lifestyle-card__micro{font-size:9px}.lifestyle-card h2{font-size:clamp(27px,3.9vw,42px)}}
+@media(max-width:760px){.film-section{padding:12px}.film-section__frame{display:flex;flex-direction:column;min-height:0}.film-section__copy{width:100%;padding:34px 26px 24px}.film-section h2{font-size:clamp(37px,7vw,66px);margin:20px 0 18px}.film-section__media{position:relative;aspect-ratio:16 / 9}.film-section__video-shade{background:linear-gradient(0deg,#0009,transparent 55%)}.film-section__play{left:50%;top:46%}.film-section__sound{right:10px;top:10px}.lifestyle-section{padding:12px}.lifestyle-section__grid{height:auto;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;gap:9px}.lifestyle-card--feature{grid-row:auto;grid-column:1 / -1;aspect-ratio:1.65}.lifestyle-card--minor{aspect-ratio:1.55}.lifestyle-card__headline{top:8%;left:7%;max-width:54%}.lifestyle-card h2{font-size:clamp(32px,6.3vw,56px)}.lifestyle-card__label{font-size:clamp(9px,1.8vw,14px)}.lifestyle-card__label svg{width:19px;height:19px}}
+@media(max-width:470px){.film-section__copy{padding:26px 20px 23px}.film-section h2{font-size:clamp(34px,10.1vw,47px);line-height:.98}.film-section__link{margin-top:18px}.film-section__play svg{width:57px;height:57px;padding:15px}.film-section__play{font-size:9px}.film-section__sound{padding:7px 9px;font-size:9px}.lifestyle-section{padding:8px}.lifestyle-section__grid{gap:7px}.lifestyle-card--feature{aspect-ratio:1.3}.lifestyle-card__headline{max-width:58%;top:9%;left:6%}.lifestyle-card__micro{font-size:8px;letter-spacing:.08em;margin-bottom:9px}.lifestyle-card h2{font-size:clamp(28px,7.45vw,41px)}.lifestyle-card__scribble{height:4px;margin-top:12px}.lifestyle-card--minor{aspect-ratio:1.15}.lifestyle-card__label{bottom:10px;left:9px;right:5px;font-size:10px;gap:5px}.lifestyle-card__label svg{width:17px;height:17px}.lifestyle-card__link-arrow{display:none}}
+@media(prefers-reduced-motion:reduce){.film-section__play svg,.lifestyle-card img,.lifestyle-card__link-arrow{transition:none!important}}
+
+/* V16: tighter portrait crops on narrow two-column cards keep product and face in frame.
+   The original approved feature image and all typography/layout styles remain untouched. */
+@media (max-width: 760px) {
+  .lifestyle-section__grid > .lifestyle-card:nth-child(2) img { object-position: 70% 40%; }
+  .lifestyle-section__grid > .lifestyle-card:nth-child(3) img { object-position: 72% 40%; }
+  .lifestyle-section__grid > .lifestyle-card:nth-child(4) img { object-position: 93% 40%; }
+  .lifestyle-section__grid > .lifestyle-card:nth-child(5) img { object-position: 50% 40%; }
+}
+
+
+/* V30 — subtle purple outline on the brand-film card only. */
+.film-section__frame {border-color:rgba(157,102,241,.32)}
+.film-section__play:focus-visible {outline:3px solid var(--zolv-neon-violet);outline-offset:4px}
+

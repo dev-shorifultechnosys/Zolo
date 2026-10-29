@@ -1,0 +1,956 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Meet ZOLV. Pocket-size oral dissolving strips in Energy, Sleep, Focus and NAD+ concepts. Peel. Place. ZOLV.">
+  <title>ZOLV — Big Benefits. Tiny Strip. Anywhere.</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <!-- Preload the highest-impact asset; all other photographs stay deferred or lightweight. -->
+  <link rel="preload" href="assets/images/hero-v42/zolv-hero-tropical-desktop.webp" as="image" type="image/webp" media="(min-width: 901px)" fetchpriority="high">
+  <link rel="preload" href="assets/images/hero-v42/zolv-hero-tropical-mobile.webp" as="image" type="image/webp" media="(max-width: 900px)" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Section 02 is isolated to prevent changes to the approved Header + Hero. -->
+  <link rel="stylesheet" href="assets/css/collection.css">
+  <!-- SECTION 03 + 04: independent film + lifestyle layouts -->
+  <link rel="stylesheet" href="assets/css/lifestyle.css">
+  <!-- SECTION 05: Purposeful Ingredients (independent responsive component). -->
+  <link rel="stylesheet" href="assets/css/ingredients.css">
+  <link rel="stylesheet" href="assets/css/story.css">
+  <!-- SECTION 06: Retina photo / sharp HTML comparison content. -->
+  <link rel="stylesheet" href="assets/css/comparison.css">
+  <!-- SECTION 06: 3-Step demonstration, isolated stylesheet (V18). -->
+  <link rel="stylesheet" href="assets/css/how-steps.css">
+  <link rel="stylesheet" href="assets/css/community.css">
+  <!-- SECTION 09: Risk-free marketing design / all typography remains editable -->
+  <link rel="stylesheet" href="assets/css/offer.css">
+  <!-- SECTION 10 / Premium FAQ accordion: standalone, no impact on approved sections. -->
+  <link rel="stylesheet" href="assets/css/faq.css">
+  <!-- SECTION 11 / isolated dark premium footer (smooth silver logo) -->
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/v44-quality.css">
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/community.js" defer></script>
+  <script src="assets/js/lifestyle.js" defer></script>
+  <script src="assets/js/how-steps.js" defer></script>
+  <script src="assets/js/faq.js" defer></script>
+  <script src="assets/js/footer.js" defer></script>
+  <script src="assets/js/live-chat.js" defer></script>
+  <script src="assets/js/back-to-top.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       SECTION 01A — SITE HEADER
+       Desktop: exact white/nav treatment from supplied 1533×620 reference.
+       Mobile: accessible menu instead of squeezed navigation.
+       ============================================================ -->
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a href="#top" class="header__brand" aria-label="ZOLV — homepage">
+        <img src="assets/images/zolv-neon-header-1x.webp"
+             srcset="assets/images/zolv-neon-header-1x.webp 1x, assets/images/zolv-neon-header-2x.webp 2x"
+             alt="ZOLV" width="1616" height="721" decoding="async" fetchpriority="high">
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav__link" type="button" data-action="shop">SHOP</button>
+        <button class="nav__link" type="button" data-action="learn">LEARN</button>
+        <button class="nav__link" type="button" data-action="story">OUR STORY</button>
+        <button class="nav__link" type="button" data-action="lifestyle">LIFESTYLE</button>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn icon-btn--desktop" aria-label="Search" type="button" data-dialog="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.6" cy="10.6" r="6.7"/><path d="m15.6 15.6 5 5"/></svg>
+        </button>
+        <button class="icon-btn icon-btn--desktop" aria-label="Account information" type="button" data-dialog="account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7.2" r="3.3"/><path d="M4.3 20c.3-4.1 3.3-6.4 7.7-6.4s7.4 2.3 7.7 6.4Z"/></svg>
+        </button>
+        <button class="icon-btn cart-trigger" aria-label="Open bag, 0 items" type="button" data-dialog="bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.8 8h16.4l-1.4 12.8H5.2Z"/><path d="M8.4 8V6a3.6 3.6 0 0 1 7.2 0v2"/></svg>
+          <span class="bag-badge" id="bag-badge">0</span>
+        </button>
+        <button class="subscribe-btn" type="button" data-dialog="subscribe">GET UPDATES <span aria-hidden="true">→</span></button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu" type="button"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu" hidden aria-label="Mobile navigation">
+      <button type="button" data-action="shop">Shop the collection <span>↗</span></button>
+      <button type="button" data-action="learn">Learn / How it works <span>↗</span></button>
+      <button type="button" data-action="story">Our story <span>↗</span></button>
+      <button type="button" data-action="lifestyle">Lifestyle stories <span>↗</span></button>
+      <button type="button" data-dialog="search">Search <span>↗</span></button>
+      <button type="button" data-dialog="subscribe">Get updates <span>↗</span></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============================================================
+         SECTION 01B — HERO
+         Typography, CTA, benefit icons and photo are independent elements.
+         PHOTO RIGHT: user-approved V42 tropical beach hero artwork;
+         no text on left is baked into the image. Product-label microcopy in
+         art is approved visual concept; its label claims require legal review before launch.
+         ============================================================ -->
+    <section class="hero" aria-labelledby="hero-title" id="home">
+      <div class="hero__stage">
+        <div class="hero__background" aria-hidden="true"></div>
+        <picture class="hero__visual">
+          <source media="(max-width: 900px)" type="image/webp" srcset="assets/images/hero-v42/zolv-hero-tropical-mobile-1x.webp 1x, assets/images/hero-v42/zolv-hero-tropical-mobile.webp 2x">
+          <source type="image/webp" srcset="assets/images/hero-v42/zolv-hero-tropical-desktop-1x.webp 1x, assets/images/hero-v42/zolv-hero-tropical-desktop.webp 2x">
+          <img src="assets/images/hero-v42/zolv-hero-tropical-desktop-1x.webp" alt="Tropical beach lifestyle scene featuring ZOLV Energy, Sleep, Focus and NAD+ carton-and-sachet sets beside a smiling model with an oral film." width="1672" height="941" fetchpriority="high" decoding="async">
+        </picture>
+
+        <div class="hero__content">
+          <p class="hero__eyebrow">ORAL DISSOLVING STRIPS</p>
+          <h1 id="hero-title" class="hero__title"><span>BIG BENEFITS.</span><span class="hero__title--lime">TINY STRIP.</span><span>ANYWHERE.</span></h1>
+          <p class="hero__description">Meet four individually wrapped oral-film concepts: Energy, Sleep, Focus and NAD+. Made for life on the move.</p>
+          <div class="hero__ctas">
+            <button class="primary-btn" type="button" data-action="shop">EXPLORE ZOLV <span aria-hidden="true">→</span></button>
+            <button class="watch-btn" type="button" data-action="learn"><span class="watch-btn__circle" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="m7 4 9 6-9 6Z"/></svg></span><span>SEE HOW IT WORKS</span></button>
+          </div>
+          <ul class="hero__features" aria-label="ZOLV highlights">
+            <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m18 2-9 15h7l-2 13 10-17h-7z"/></svg><span>FAST<br>DISSOLVE</span></li>
+            <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 9q5-1 9 3c1.5 1.7 2.3 2.5 4 2.5s2.5-.8 4-2.5q4-4 9-3l-5 9-6 2v7q-2 4-5 0v-7l-5-2z"/><path d="M16 18v8"/></svg><span>PLACE<br>ON TONGUE</span></li>
+            <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 4C13 5 4 13 6 25 20 29 29 17 27 4Z"/><path d="M7 26 24 9"/></svg><span>EASY<br>TO CARRY</span></li>
+            <li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="8" width="22" height="21" rx="4"/><path d="M11 8V6c0-3 10-3 10 0v2M11 14h10M11 19h10M13 24h6"/></svg><span>POCKET<br>FRIENDLY</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ============================================================
+           SECTION 01C — TWO DARK STRIPS / EXACT SCREENSHOT STRUCTURE
+           Includes continuously moving SKU strip, pause control, reduced-motion support.
+           ============================================================ -->
+      <div class="hero__bottom">
+        <div class="trust-bar" aria-label="ZOLV selling points">
+          <div class="trust-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="solid" d="m12 1.5 3.2 6.5 7.2 1.1-5.2 5 .9 7.1-6.1-3.3-6.1 3.3.9-7.1-5.2-5 7.2-1.1Z"/></svg><span>PREMIUM INGREDIENTS</span></div>
+          <div class="trust-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 2-8 11h6l-2 9 9-13h-6z"/></svg><span>INDIVIDUALLY WRAPPED</span></div>
+          <div class="trust-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 2h6M10 2v6L4 19.5A1.8 1.8 0 0 0 5.6 22h12.8a1.8 1.8 0 0 0 1.6-2.5L14 8V2M7.5 16h9"/></svg><span>FOUR FORMULAS</span></div>
+          <div class="trust-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 7h12v10H2zM14 10h4l4 4v3h-8zM6 18.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0m10 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0"/></svg><span>MADE FOR<br>YOUR ROUTINE</span></div>
+        </div>
+        <!-- V33: four user-supplied carton+sachet pairing artworks.
+             Two animation cycles use optimized alpha WebP, original PNGs retained.
+             Previously used strip assets have been retired.
+             Four client-supplied final product advertisement artworks:
+             Energy / Sleep / Focus / NAD+.
+             Repeated once (eight visual cards total) for an uninterrupted carousel.
+             Each image is optimized without changing original product graphics.
+             Product cards open the existing quick-view preview. -->
+        <div class="gallery-strip gallery-marquee" role="region" aria-label="Scrolling ZOLV product collection" aria-roledescription="carousel">
+          <div class="gallery-marquee__viewport" id="gallery-viewport">
+            <div class="gallery-marquee__track" id="gallery-track">
+              <button class="gallery-product gallery-product--energy" type="button" data-gallery-product="Energy" style="--product-accent:#d9ff32" aria-label="View ZOLV Energy product">
+                <img src="assets/images/products/pair-energy-1x.webp" srcset="assets/images/products/pair-energy-1x.webp 1x, assets/images/products/pair-energy-2x.webp 2x" width="680" height="408" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">ENERGY</span>
+              </button>
+              <button class="gallery-product gallery-product--sleep" type="button" data-gallery-product="Sleep" style="--product-accent:#b788f8" aria-label="View ZOLV Sleep product">
+                <img src="assets/images/products/pair-sleep-1x.webp" srcset="assets/images/products/pair-sleep-1x.webp 1x, assets/images/products/pair-sleep-2x.webp 2x" width="680" height="680" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">SLEEP</span>
+              </button>
+              <button class="gallery-product gallery-product--focus" type="button" data-gallery-product="Focus" style="--product-accent:#ff88b5" aria-label="View ZOLV Focus product">
+                <img src="assets/images/products/pair-focus-1x.webp" srcset="assets/images/products/pair-focus-1x.webp 1x, assets/images/products/pair-focus-2x.webp 2x" width="680" height="680" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">FOCUS</span>
+              </button>
+              <button class="gallery-product gallery-product--nad" type="button" data-gallery-product="NAD+" style="--product-accent:#79bfff" aria-label="View ZOLV NAD+ product">
+                <img src="assets/images/products/pair-nad-1x.webp" srcset="assets/images/products/pair-nad-1x.webp 1x, assets/images/products/pair-nad-2x.webp 2x" width="680" height="460" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">NAD+</span>
+              </button>
+              <button class="gallery-product gallery-product--energy" type="button" data-gallery-product="Energy" aria-hidden="true" tabindex="-1" style="--product-accent:#d9ff32" aria-label="View ZOLV Energy product">
+                <img src="assets/images/products/pair-energy-1x.webp" srcset="assets/images/products/pair-energy-1x.webp 1x, assets/images/products/pair-energy-2x.webp 2x" width="680" height="408" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">ENERGY</span>
+              </button>
+              <button class="gallery-product gallery-product--sleep" type="button" data-gallery-product="Sleep" aria-hidden="true" tabindex="-1" style="--product-accent:#b788f8" aria-label="View ZOLV Sleep product">
+                <img src="assets/images/products/pair-sleep-1x.webp" srcset="assets/images/products/pair-sleep-1x.webp 1x, assets/images/products/pair-sleep-2x.webp 2x" width="680" height="680" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">SLEEP</span>
+              </button>
+              <button class="gallery-product gallery-product--focus" type="button" data-gallery-product="Focus" aria-hidden="true" tabindex="-1" style="--product-accent:#ff88b5" aria-label="View ZOLV Focus product">
+                <img src="assets/images/products/pair-focus-1x.webp" srcset="assets/images/products/pair-focus-1x.webp 1x, assets/images/products/pair-focus-2x.webp 2x" width="680" height="680" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">FOCUS</span>
+              </button>
+              <button class="gallery-product gallery-product--nad" type="button" data-gallery-product="NAD+" aria-hidden="true" tabindex="-1" style="--product-accent:#79bfff" aria-label="View ZOLV NAD+ product">
+                <img src="assets/images/products/pair-nad-1x.webp" srcset="assets/images/products/pair-nad-1x.webp 1x, assets/images/products/pair-nad-2x.webp 2x" width="680" height="460" alt="" loading="eager" decoding="async">
+                <span class="gallery-product__name">NAD+</span>
+              </button>
+            </div>
+          </div>
+          <button class="gallery-marquee__toggle" id="marquee-toggle" type="button" aria-label="Pause product scrolling" aria-pressed="false" title="Pause product scrolling">
+            <svg class="gallery-marquee__pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6v12m8-12v12"/></svg>
+            <svg class="gallery-marquee__play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 9 6-9 6Z"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 02 — THE ZOLV COLLECTION / FOUR WAYS TO FEEL MORE
+         Screenshot-matched to the attached 782×357 design reference.
+         Heading, descriptive copy, buttons and product names are live HTML.
+         Large carton art is decorative and sourced from the user's reference;
+         separate crops provide readable, balanced mobile product scenes.
+         Formula detail / claimed ingredients in the reference are concepts,
+         not verified packaging facts. No fabricated checkout links or pricing.
+         ============================================================ -->
+    <section class="collection-section" id="collection" aria-labelledby="collection-heading">
+      <div class="collection-section__inner">
+        <div class="collection-section__heading-row">
+          <div class="collection-section__headline">
+            <p class="collection-section__eyebrow">OUR RANGE</p>
+            <h2 id="collection-heading" class="collection-section__title">
+              <span>FOUR WAYS</span>
+              <span>TO FEEL <mark>MORE.</mark></span>
+            </h2>
+          </div>
+          <div class="collection-section__aside">
+            <p>One ZOLV world. Four formula concepts.<br>Explore the range and find your routine.</p>
+          </div>
+        </div>
+
+        <!-- V33 — four supplied final SINGLE carton cutouts: Energy, Sleep, Focus, NAD+.
+             Full-size display, transparent backgrounds, native-resolution 2x sources. -->
+        <div class="collection-section__grid" id="collection-grid">
+          <article class="collection-product collection-product--energy" data-collection-card="Energy">
+            <div class="collection-product__visual" data-collection-visual>
+              <img data-collection-image="energy" src="assets/images/products/single-energy-1x.webp"
+                   srcset="assets/images/products/single-energy-1x.webp 1x, assets/images/products/single-energy-2x.webp 2x"
+                   width="340" height="463" loading="lazy" decoding="async"
+                   alt="ZOLV Energy large 30-strip carton packaging" />
+            </div>
+            <div class="collection-product__info">
+              <h3>ENERGY</h3>
+              <p>For the long day.<br>For everyday momentum.</p>
+              <button type="button" data-collection-sku="Energy">EXPLORE ENERGY <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+          <article class="collection-product collection-product--sleep" data-collection-card="Sleep">
+            <div class="collection-product__visual" data-collection-visual>
+              <img data-collection-image="sleep" src="assets/images/products/single-sleep-1x.webp"
+                   srcset="assets/images/products/single-sleep-1x.webp 1x, assets/images/products/single-sleep-2x.webp 2x"
+                   width="340" height="513" loading="lazy" decoding="async"
+                   alt="ZOLV Sleep large 30-strip carton packaging" />
+            </div>
+            <div class="collection-product__info">
+              <h3>SLEEP</h3>
+              <p>For evening routines.<br>Take a moment to reset.</p>
+              <button type="button" data-collection-sku="Sleep">EXPLORE SLEEP <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+          <article class="collection-product collection-product--focus" data-collection-card="Focus">
+            <div class="collection-product__visual" data-collection-visual>
+              <img data-collection-image="focus" src="assets/images/products/single-focus-1x.webp"
+                   srcset="assets/images/products/single-focus-1x.webp 1x, assets/images/products/single-focus-2x.webp 2x"
+                   width="340" height="515" loading="lazy" decoding="async"
+                   alt="ZOLV Focus large 30-strip carton packaging" />
+            </div>
+            <div class="collection-product__info">
+              <h3>FOCUS</h3>
+              <p>For moments that matter.<br>Make space to focus.</p>
+              <button type="button" data-collection-sku="Focus">EXPLORE FOCUS <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+          <article class="collection-product collection-product--nad" data-collection-card="NAD+">
+            <div class="collection-product__visual" data-collection-visual>
+              <img data-collection-image="nad" src="assets/images/products/single-nad-1x.webp"
+                   srcset="assets/images/products/single-nad-1x.webp 1x, assets/images/products/single-nad-2x.webp 2x"
+                   width="340" height="449" loading="lazy" decoding="async"
+                   alt="ZOLV NAD+ large 30-strip carton packaging" />
+            </div>
+            <div class="collection-product__info">
+              <h3>NAD+</h3>
+              <p>For daily rituals.<br>And what comes next.</p>
+              <button type="button" data-collection-sku="NAD+">EXPLORE NAD+ <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+      <p class="collection-section__preview-note">PRODUCT DESIGN PREVIEW · Explore each formula to view its carton and sachet concept. Online shopping is not yet connected.</p>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 03 — THE ZOLV FILM
+         Real locally bundled 30-second user-supplied brand video, H.264/AAC.
+         HTML controls + accessible custom play/mute buttons, visibility-based muted autoplay, no external service, no library or third-party embed.
+         ============================================================ -->
+    <section class="steps-section" id="how-it-works" aria-labelledby="steps-heading">
+      <!-- Single white wave between the Collection and How It Works; no overlapping layer. -->
+      <svg class="steps-section__top-wave" aria-hidden="true" viewBox="0 0 1440 55" preserveAspectRatio="none" focusable="false"><path d="M0 0 H1440 V21 C1190 42 1050 22 820 31 C560 44 290 18 0 36 Z" fill="#ffffff"/></svg>
+      <div class="steps-section__shell">
+        <div class="steps-section__intro">
+          <p class="steps-section__eyebrow">HOW IT WORKS <span aria-hidden="true"></span></p>
+          <h2 class="steps-section__heading" id="steps-heading">WELLNESS<br>IN <span>3 SIMPLE</span><br><span>STEPS.</span></h2>
+          <p class="steps-section__copy">One little strip, three easy moves. Ready when you are.</p>
+          <button type="button" class="steps-section__cta" id="steps-watch-film">SEE IT IN ACTION <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="steps-section__sequence" aria-label="How to use a ZOLV oral dissolving strip">
+          <article class="step-card step-card--peel">
+            <div class="step-card__image-wrap">
+              <picture class="step-card__picture">
+                <img class="step-card__photo" src="assets/images/how-steps/peel-zolv-energy.webp"
+                     srcset="assets/images/how-steps/peel-zolv-energy.webp 1x, assets/images/how-steps/peel-zolv-energy-2x.webp 2x"
+                     width="560" height="700" loading="lazy" decoding="async"
+                     alt="A hand carefully pulling a yellow oral strip from the opened ZOLV Energy sachet">
+              </picture>
+            </div>
+            <div class="step-card__content"><span class="step-card__number">01</span><div class="step-card__words"><h3>PEEL</h3><p>Take out a strip.</p></div></div>
+          </article>
+          <span class="steps-section__connector" aria-hidden="true">→</span>
+          <article class="step-card step-card--place">
+            <div class="step-card__image-wrap">
+              <img class="step-card__photo" src="assets/images/how-steps/place.webp" srcset="assets/images/how-steps/place.webp 1x, assets/images/how-steps/place-2x.webp 2x" width="500" height="550" loading="lazy" decoding="async" alt="Clear close-up showing lips, teeth and tongue with an oral dissolving strip">
+            </div>
+            <div class="step-card__content"><span class="step-card__number">02</span><div class="step-card__words"><h3>PLACE</h3><p>On your tongue.</p></div></div>
+          </article>
+          <span class="steps-section__connector" aria-hidden="true">→</span>
+          <article class="step-card step-card--dissolve">
+            <div class="step-card__image-wrap">
+              <img class="step-card__photo" src="assets/images/how-steps/dissolve.webp" srcset="assets/images/how-steps/dissolve.webp 1x, assets/images/how-steps/dissolve-2x.webp 2x" width="500" height="749" loading="lazy" decoding="async" alt="Smiling woman enjoying a sunny summer day, wearing lime sunglasses">
+            </div>
+            <div class="step-card__content"><span class="step-card__number">03</span><div class="step-card__words"><h3>LET DISSOLVE</h3><p>No water needed.</p></div></div>
+          </article>
+        </div>
+      </div>
+      <span class="steps-section__bottom-glow" aria-hidden="true"></span>
+    </section>
+
+    <section class="film-section" id="film" aria-labelledby="film-heading">
+      <div class="film-section__frame">
+        <div class="film-section__copy">
+          <p class="film-section__eyebrow"><span aria-hidden="true" class="film-section__dot"></span> THE ZOLV FILM <span class="film-section__duration">/ 00:30</span></p>
+          <h2 id="film-heading">SMALL STRIP.<br><em>BIG ENERGY.</em><br>REAL LIFE.</h2>
+          <p>From everyday rituals to the moments you live for. This is ZOLV in motion.</p>
+          <a class="film-section__link" href="#lifestyle">SEE WHERE ZOLV GOES <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="film-section__media">
+          <video id="brand-film" class="film-section__video" preload="metadata" playsinline muted loop
+                 poster="assets/images/lifestyle/zolv-film-poster.jpg" width="1920" height="1080"
+                 aria-label="ZOLV brand film, approximately 30 seconds">
+            <source src="assets/video/zolv-brand-film-1080p.mp4" type="video/mp4">
+            Your browser cannot play the video. Download the film from the video file in this website package.
+          </video>
+          <div class="film-section__video-shade" aria-hidden="true"></div>
+          <button class="film-section__play" type="button" id="film-play" aria-label="Play ZOLV brand film">
+            <svg viewBox="0 0 44 44" aria-hidden="true"><path d="M16 10.8 33 22 16 33.2Z"/></svg>
+            <span>PLAY THE FILM</span>
+          </button>
+          <button class="film-section__sound" type="button" id="film-sound" aria-label="Unmute ZOLV brand film" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4zM18 9l4 6m0-6-4 6"/></svg>
+            <span id="film-sound-label">SOUND OFF</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 04 — WELLNESS THAT MOVES WITH YOU
+         Reference-matched 1 large / 4 small editorial photography grid.
+         Individual images (not a screenshot background), genuine responsive
+         CSS cards and live, accessible text / links to the range section.
+         ============================================================ -->
+    <section class="lifestyle-section" id="lifestyle" aria-labelledby="lifestyle-heading">
+      <div class="lifestyle-section__grid">
+        <article class="lifestyle-card lifestyle-card--feature">
+          <img src="assets/images/lifestyle/wellness-main.webp" alt="Woman in sunglasses using an oral wellness strip outdoors" width="1200" height="780" loading="lazy" decoding="async">
+          <div class="lifestyle-card__headline">
+            <p class="lifestyle-card__micro">ZOLV / ALL DAY, EVERY DAY</p>
+            <h2 id="lifestyle-heading">WELLNESS<br>THAT MOVES<br>WITH YOU</h2>
+            <span class="lifestyle-card__scribble" aria-hidden="true"></span>
+          </div>
+        </article>
+        <a class="lifestyle-card lifestyle-card--minor" href="#collection" aria-label="Work and Focus — explore the ZOLV range">
+          <img src="assets/images/lifestyle/work-focus.webp" width="1280" height="720" alt="Smiling man at a desk enjoying a ZOLV Energy strip while holding the Energy sachet" loading="lazy" decoding="async">
+          <div class="lifestyle-card__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v12H3zM1 20h22"/></svg><span>WORK &amp; FOCUS</span><span class="lifestyle-card__link-arrow" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="lifestyle-card lifestyle-card--minor" href="#collection" aria-label="Travel and Adventure — explore the ZOLV range">
+          <img src="assets/images/lifestyle/travel-adventure.webp" width="1280" height="720" alt="Woman on a coastal adventure enjoying a ZOLV Sleep strip while holding the Sleep sachet" loading="lazy" decoding="async">
+          <div class="lifestyle-card__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 21 7-9-7-5V4l9 5 7-6 2 1-6 9 5 8-3 1-6-7z"/></svg><span>TRAVEL &amp; ADVENTURE</span><span class="lifestyle-card__link-arrow" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="lifestyle-card lifestyle-card--minor" href="#collection" aria-label="Nights Out — explore the ZOLV range">
+          <img src="assets/images/lifestyle/nights-out.webp" width="1280" height="720" alt="Woman at a concert enjoying a ZOLV Focus strip while holding the Focus sachet" loading="lazy" decoding="async">
+          <div class="lifestyle-card__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 19V5l11-2v14M10 9l11-2"/><circle cx="6" cy="19" r="4"/><circle cx="17" cy="17" r="4"/></svg><span>NIGHTS OUT</span><span class="lifestyle-card__link-arrow" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="lifestyle-card lifestyle-card--minor" href="#collection" aria-label="Active Lifestyle — explore the ZOLV range">
+          <img src="assets/images/lifestyle/active-lifestyle.webp" width="1280" height="720" alt="Woman on a sunny coastal walk enjoying a ZOLV NAD+ strip while holding the NAD+ sachet" loading="lazy" decoding="async">
+          <div class="lifestyle-card__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 8v8m3-10v12m3-12v12m8-12v12m3-10v8m3-11v14M8 12h8"/></svg><span>ACTIVE LIFESTYLE</span><span class="lifestyle-card__link-arrow" aria-hidden="true">↗</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION / OUR STORY: Visible on-page editorial brand introduction. -->
+    <section class="zolv-story" id="story" aria-labelledby="story-heading">
+      <div class="zolv-story__inner">
+        <div class="zolv-story__visual">
+          <span class="zolv-story__overline">THE IDEA BEHIND ZOLV</span>
+          <div class="zolv-story__wordmark" aria-hidden="true">ZOLV<span>.</span></div>
+          <p>LESS TO CARRY.<br><em>MORE ROOM TO LIVE.</em></p>
+          <span class="zolv-story__orb zolv-story__orb--one" aria-hidden="true"></span>
+          <span class="zolv-story__orb zolv-story__orb--two" aria-hidden="true"></span>
+        </div>
+        <div class="zolv-story__copy">
+          <p class="zolv-story__eyebrow">01 / WHO WE ARE</p>
+          <h2 id="story-heading">WELLNESS<br>WITHOUT<br><mark>THE BAGGAGE.</mark></h2>
+          <p class="zolv-story__lead">We believe your routine should fit your life. Not the other way around.</p>
+          <p>That idea shapes ZOLV: ultra-thin oral films, individually wrapped and easy to bring along. No bulky bottles in the bag. No complicated ritual. Just a small format made for your everyday.</p>
+          <p>Four distinct directions—Energy, Sleep, Focus and NAD+—with one unmistakable ZOLV personality.</p>
+          <a class="zolv-story__cta" href="#collection">EXPLORE THE FOUR FORMULAS <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 05 — POWERED BY PURPOSEFUL INGREDIENTS
+         Reference-informed bright editorial format (NOT a flattened screenshot).
+         Product ingredient photography: optimized alpha WebP (1× / 2×).
+         Every word, ingredient callout and CTA is real searchable HTML.
+         Descriptions are formulation references, not medical claims.
+         ============================================================ -->
+    <section class="ingredients-section" id="ingredients" aria-labelledby="ingredients-heading">
+      <div class="ingredients-section__inner">
+        <div class="ingredients-section__intro">
+          <p class="ingredients-section__eyebrow">WHAT GOES INTO ZOLV</p>
+          <h2 class="ingredients-section__headline" id="ingredients-heading">POWERED BY<br>PURPOSEFUL<br>INGREDIENTS.</h2>
+          <p class="ingredients-section__description">Thoughtfully selected ingredients.<br>Four formulas. One simple strip.</p>
+          <button type="button" class="ingredients-section__cta" data-dialog="ingredients">
+            LEARN ABOUT OUR FORMULAS
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
+          </button>
+        </div>
+
+        <div class="ingredients-section__showcase" aria-label="Ingredient photography and highlights">
+          <picture class="ingredients-section__photography">
+            <source type="image/webp" srcset="assets/images/ingredients/purposeful-ingredients.webp 1x, assets/images/ingredients/purposeful-ingredients-2x.webp 2x">
+            <img src="assets/images/ingredients/purposeful-ingredients.webp" width="2160" height="413" alt="Fresh lemon, mint, red berries, blueberries, lavender and crystalline ice with water droplets" loading="lazy" decoding="async">
+          </picture>
+          <div class="ingredient-callouts ingredient-callouts--top" aria-label="Ingredients in ZOLV formula concepts">
+            <button type="button" class="ingredient-chip ingredient-chip--b12" data-ingredient="b12"><strong>B12</strong><span>Energy formula</span></button>
+            <button type="button" class="ingredient-chip ingredient-chip--taurine" data-ingredient="taurine"><strong>TAURINE</strong><span>Energy formula</span></button>
+            <button type="button" class="ingredient-chip ingredient-chip--melatonin" data-ingredient="melatonin"><strong>MELATONIN</strong><span>Sleep formula</span></button>
+          </div>
+          <div class="ingredient-callouts ingredient-callouts--bottom">
+            <button type="button" class="ingredient-chip ingredient-chip--theanine" data-ingredient="theanine"><strong>L-THEANINE</strong><span>Sleep formula</span></button>
+            <button type="button" class="ingredient-chip ingredient-chip--gpc" data-ingredient="tyrosine"><strong>L-TYROSINE</strong><span>Focus concept</span></button>
+            <button type="button" class="ingredient-chip ingredient-chip--resveratrol" data-ingredient="resveratrol"><strong>RESVERATROL</strong><span>NAD+ formula</span></button>
+          </div>
+        </div>
+      </div>
+      <p class="ingredients-section__disclaimer">Ingredient names shown are references from evolving artwork, not confirmed formulas. Focus packaging concepts have conflicting ingredient lists. Final ingredients, dosages and claims require written approval before print or sales.</p>
+    </section>
+
+
+
+    <!-- ============================================================
+         SECTION 06 — HOW IT WORKS / WELLNESS IN THREE SIMPLE STEPS
+         New section from user reference. Original approved ZOLV sachet
+         artwork is a real transparent foreground image, NOT AI lettering.
+         Photography: refined visual campaign photos. Approved original ZOLV
+         Energy sachet artwork is composited without changing printed branding.
+         All section headings, captions and numbers are live HTML.
+         Standalone CSS + JS; earlier sections remain unchanged.
+         ============================================================ -->
+
+
+    <!-- ============================================================
+         SECTION 07 — ZOLV VS. THE USUAL / RESPONSIVE COMPARISON
+         Separate live HTML text and real PNG/WebP imagery avoid scaling
+         the small supplied reference screenshot. No external libraries.
+         Intended as concept marketing copy, subject to claim validation.
+         ============================================================ -->
+    <section class="comparison-section" id="comparison" aria-labelledby="comparison-heading">
+      <svg class="comparison-section__top-wave" aria-hidden="true" focusable="false" viewBox="0 0 1440 52" preserveAspectRatio="none"><path d="M0 0H1440V24 C1140 43 1005 18 800 32 C530 50 325 12 0 34 Z" fill="#f6f6f2"/></svg>
+      <div class="comparison-section__inner">
+        <div class="comparison-section__left">
+          <div class="comparison-section__heading">
+            <p class="comparison-section__eyebrow">A BETTER WAY TO TAKE WELLNESS</p>
+            <h2 id="comparison-heading"><span>ZOLV</span> <em>VS. THE USUAL.</em></h2>
+            <p>Two different formats. One simpler ritual.</p>
+          </div>
+          <div class="comparison-section__cards" aria-label="ZOLV oral strips compared with traditional pills and gummies">
+            <article class="comparison-card comparison-card--strip">
+              <div class="comparison-card__product">
+                <img src="assets/images/collection/energy-sachet-2x.webp" width="600" height="266" alt="ZOLV Energy individually wrapped oral strip sachet with citrus-inspired artwork" loading="lazy" decoding="async">
+                <strong>ZOLV ORAL STRIP</strong>
+              </div>
+              <ul class="comparison-card__features">
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--yes">✓</span><span>Designed to dissolve on the tongue</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--yes">✓</span><span>No water needed</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--yes">✓</span><span>Individually wrapped</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--yes">✓</span><span>No mixing required</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--yes">✓</span><span>Four formula concepts</span></li>
+              </ul>
+            </article>
+            <span class="comparison-section__vs" aria-hidden="true">VS</span>
+            <article class="comparison-card comparison-card--usual">
+              <div class="comparison-card__product comparison-card__product--usual">
+                <svg class="comparison-card__pills" viewBox="0 0 180 158" role="img" aria-label="Three white capsule pills" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="pill-sheen" x1="0" y1="0" x2=".9" y2="1">
+                      <stop offset="0" stop-color="#fefefe"/><stop offset=".32" stop-color="#fff"/><stop offset=".7" stop-color="#c3c5c9"/><stop offset="1" stop-color="#ececee"/>
+                    </linearGradient>
+                    <filter id="pill-shadow" x="-35%" y="-45%" width="190%" height="205%"><feGaussianBlur stdDeviation="5"/></filter>
+                  </defs>
+                  <ellipse cx="94" cy="131" rx="63" ry="11" fill="#000" opacity=".6" filter="url(#pill-shadow)"/>
+                  <g transform="translate(25 4) rotate(29 55 35)"><rect x="0" y="0" width="110" height="56" rx="28" fill="url(#pill-sheen)"/><path d="M53 2 V54" stroke="#a4a7ac" stroke-opacity=".3"/><ellipse cx="39" cy="13" rx="28" ry="5" fill="#fff" opacity=".65"/></g>
+                  <g transform="translate(54 61) rotate(-32 55 35)"><rect x="0" y="0" width="110" height="56" rx="28" fill="url(#pill-sheen)"/><path d="M53 2 V54" stroke="#a4a7ac" stroke-opacity=".34"/><ellipse cx="38" cy="13" rx="28" ry="5" fill="#fff" opacity=".62"/></g>
+                </svg>
+                <strong>PILLS / GUMMIES</strong>
+              </div>
+              <ul class="comparison-card__features">
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--neutral">•</span><span>Usually swallowed as a tablet or gummy</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--neutral">•</span><span>Some tablets are taken with water</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--neutral">•</span><span>Carry formats vary</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--neutral">•</span><span>Taste varies by product</span></li>
+                <li><span aria-hidden="true" class="comparison-card__mark comparison-card__mark--neutral">•</span><span>Ingredients vary by product</span></li>
+              </ul>
+            </article>
+          </div>
+          <p class="comparison-section__fineprint">Illustrative differences in product formats only, not a clinical efficacy or superiority comparison. Product ingredients and directions require final approved labeling.</p>
+        </div>
+        <div class="comparison-section__visual">
+          <img class="comparison-section__photograph" src="assets/images/comparison/oral-film-closeup.webp" width="695" height="728" loading="lazy" decoding="async" alt="Close-up showing a thin dissolving strip being placed on the tongue">
+          <p class="comparison-section__handwriting">PEEL.<br>PLACE.<br>KEEP<br>MOVING.<span aria-hidden="true"></span></p>
+          <span class="comparison-section__image-shade" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 08 — ZOLV PHOTO REELS + MOVING RATING-STYLE PHOTO WALL
+         ZOLV's approved lifestyle imagery plus explicitly labeled rating UI
+         demo; NO real customer ratings, quotes, aggregates, or reviews.
+         Reels are still photo stories with lightbox (no playback).
+         ============================================================ -->
+    <section class="community-section" id="community" aria-labelledby="community-heading">
+      <div class="community-section__inner">
+        <div class="community-section__intro">
+          <p class="community-section__eyebrow">THE ZOLV COMMUNITY / EVERYDAY MOMENTS</p>
+          <h2 class="community-section__heading" id="community-heading">SMALL STRIP.<br><span>REAL LIFE.</span><br>YOUR MOMENT.</h2>
+          <p class="community-section__tagline">From the first plan of the day to the moments worth remembering. ZOLV goes where real life happens.</p>
+          <!-- CONCEPT-ONLY interactive rating UI; not a live review or testimonial. -->
+          <div class="community-rating" aria-label="Interactive rating component demo, no actual ZOLV customer reviews">
+            <div class="community-rating__meta"><span>YOUR EXPERIENCE</span><span class="community-rating__chip">INTERACTIVE DEMO</span></div>
+            <div class="community-rating__top"><div class="community-rating__decorative" aria-hidden="true">★★★★★</div><strong class="community-rating__score" id="community-rating-score">—<small> / 5</small></strong></div>
+            <p class="community-rating__help">Preview how ZOLV's future customer rating component could look.</p>
+            <fieldset class="community-rating__field">
+              <legend>TRY A RATING</legend>
+              <div class="community-rating__choices" id="community-rating-choices" role="group" aria-label="Demo star selection; no rating will be sent or saved">
+                <button class="community-rating__star" type="button" data-preview-rating="1" aria-label="Preview 1 star" aria-pressed="false">★</button>
+                <button class="community-rating__star" type="button" data-preview-rating="2" aria-label="Preview 2 stars" aria-pressed="false">★</button>
+                <button class="community-rating__star" type="button" data-preview-rating="3" aria-label="Preview 3 stars" aria-pressed="false">★</button>
+                <button class="community-rating__star" type="button" data-preview-rating="4" aria-label="Preview 4 stars" aria-pressed="false">★</button>
+                <button class="community-rating__star" type="button" data-preview-rating="5" aria-label="Preview 5 stars" aria-pressed="false">★</button>
+              </div>
+            </fieldset>
+            <p class="community-rating__feedback" id="community-rating-feedback" role="status" aria-live="polite">Tap a star to test the design. No rating is submitted.</p>
+            <p class="community-rating__disclosure">DEMO UI · NO VERIFIED CUSTOMER RATINGS OR REVIEW DATA</p>
+          </div>
+          <button class="community-section__cta" type="button" id="community-watch-first">EXPLORE PHOTO STORIES <span aria-hidden="true">→</span></button>
+          <p class="community-section__note">Design preview only: ratings are illustrative and photos are editorial, not verified customer testimonials. Real reviews require consent and verification before launch.</p>
+        </div>
+        <div class="community-section__gallery">
+          <div class="community-section__gallery-top">
+            <p>LIFESTYLE STORIES / EDITORIAL PREVIEW</p>
+            <div class="community-nav">
+              <span class="community-nav__status" id="community-counter" aria-live="polite">01 / 05</span>
+              <button class="community-nav__btn" id="community-prev" type="button" aria-label="Previous photo story" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4m6-6-6 6 6 6"/></svg></button>
+              <button class="community-nav__btn" id="community-next" type="button" aria-label="Next photo story"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+            </div>
+          </div>
+          <div class="community-section__track" id="community-track" tabindex="0" aria-label="Swipe or use arrows to browse five lifestyle photo stories">
+          <article class="community-card" data-community-card>
+            <div class="community-card__media">
+              <img class="community-card__photo" src="assets/images/community/zolv-lifestyle-01.webp" width="1100" height="640" loading="lazy" decoding="async" alt="ZOLV lifestyle concept: everyday wellness" />
+              <span class="community-card__tint" aria-hidden="true"></span>
+              <span class="community-card__label">Everyday wellness</span>
+              <button class="community-card__play" type="button" data-community-open="0" aria-label="Open lifestyle photo story 1: The everyday reset" title="View photo story (no video)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.6"/><path d="m15 15 5 5"/></svg></button>
+              <span class="community-card__still-label">PHOTO STORY</span>
+            </div>
+            <div class="community-card__copy">
+              <strong>The everyday reset</strong>
+              <p>Wellness, wherever the day begins.</p>
+              <div class="community-card__review-style" aria-label="Editorial lifestyle concept, not a customer review"><small>EDITORIAL · PHOTO STORY</small></div>
+              <div class="community-card__foot"><span>ZOLV LIFESTYLE</span><small>01 / 05</small></div>
+            </div>
+          </article>
+          <article class="community-card" data-community-card>
+            <div class="community-card__media">
+              <img class="community-card__photo" src="assets/images/community/zolv-lifestyle-02.webp" width="1280" height="720" loading="lazy" decoding="async" alt="ZOLV lifestyle concept: work &amp; focus" />
+              <span class="community-card__tint" aria-hidden="true"></span>
+              <span class="community-card__label">Work &amp; focus</span>
+              <button class="community-card__play" type="button" data-community-open="1" aria-label="Open lifestyle photo story 2: Find your focus" title="View photo story (no video)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.6"/><path d="m15 15 5 5"/></svg></button>
+              <span class="community-card__still-label">PHOTO STORY</span>
+            </div>
+            <div class="community-card__copy">
+              <strong>Find your focus</strong>
+              <p>Made for days that keep moving.</p>
+              <div class="community-card__review-style" aria-label="Editorial lifestyle concept, not a customer review"><small>EDITORIAL · PHOTO STORY</small></div>
+              <div class="community-card__foot"><span>ZOLV LIFESTYLE</span><small>02 / 05</small></div>
+            </div>
+          </article>
+          <article class="community-card" data-community-card>
+            <div class="community-card__media">
+              <img class="community-card__photo" src="assets/images/community/zolv-lifestyle-03.webp" width="1280" height="720" loading="lazy" decoding="async" alt="ZOLV lifestyle concept: travel &amp; adventure" />
+              <span class="community-card__tint" aria-hidden="true"></span>
+              <span class="community-card__label">Travel &amp; adventure</span>
+              <button class="community-card__play" type="button" data-community-open="2" aria-label="Open lifestyle photo story 3: Take it with you" title="View photo story (no video)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.6"/><path d="m15 15 5 5"/></svg></button>
+              <span class="community-card__still-label">PHOTO STORY</span>
+            </div>
+            <div class="community-card__copy">
+              <strong>Take it with you</strong>
+              <p>Your routine has no fixed address.</p>
+              <div class="community-card__review-style" aria-label="Editorial lifestyle concept, not a customer review"><small>EDITORIAL · PHOTO STORY</small></div>
+              <div class="community-card__foot"><span>ZOLV LIFESTYLE</span><small>03 / 05</small></div>
+            </div>
+          </article>
+          <article class="community-card" data-community-card>
+            <div class="community-card__media">
+              <img class="community-card__photo" src="assets/images/community/zolv-lifestyle-04.webp" width="1280" height="720" loading="lazy" decoding="async" alt="ZOLV lifestyle concept: nights out" />
+              <span class="community-card__tint" aria-hidden="true"></span>
+              <span class="community-card__label">Nights out</span>
+              <button class="community-card__play" type="button" data-community-open="3" aria-label="Open lifestyle photo story 4: Make every moment count" title="View photo story (no video)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.6"/><path d="m15 15 5 5"/></svg></button>
+              <span class="community-card__still-label">PHOTO STORY</span>
+            </div>
+            <div class="community-card__copy">
+              <strong>Make every moment count</strong>
+              <p>Out late. Living fully.</p>
+              <div class="community-card__review-style" aria-label="Editorial lifestyle concept, not a customer review"><small>EDITORIAL · PHOTO STORY</small></div>
+              <div class="community-card__foot"><span>ZOLV LIFESTYLE</span><small>04 / 05</small></div>
+            </div>
+          </article>
+          <article class="community-card" data-community-card>
+            <div class="community-card__media">
+              <img class="community-card__photo" src="assets/images/community/zolv-lifestyle-05.webp" width="1280" height="720" loading="lazy" decoding="async" alt="ZOLV lifestyle concept: active lifestyle" />
+              <span class="community-card__tint" aria-hidden="true"></span>
+              <span class="community-card__label">Active lifestyle</span>
+              <button class="community-card__play" type="button" data-community-open="4" aria-label="Open lifestyle photo story 5: Your own pace" title="View photo story (no video)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.6"/><path d="m15 15 5 5"/></svg></button>
+              <span class="community-card__still-label">PHOTO STORY</span>
+            </div>
+            <div class="community-card__copy">
+              <strong>Your own pace</strong>
+              <p>Everyday wellness, your way.</p>
+              <div class="community-card__review-style" aria-label="Editorial lifestyle concept, not a customer review"><small>EDITORIAL · PHOTO STORY</small></div>
+              <div class="community-card__foot"><span>ZOLV LIFESTYLE</span><small>05 / 05</small></div>
+            </div>
+          </article>
+          </div>
+
+          <!-- Fills previously blank lower-right area, with endlessly flowing
+               ZOLV editorial photo cards. JS duplicates a single set
+               for a seamless cycle, pauses on hover, keyboard focus or button. -->
+          <div class="community-wall" aria-label="Moving editorial photo stories">
+            <div class="community-wall__heading">
+              <div><p class="community-wall__eyebrow">A LITTLE MORE ZOLV</p><h3>THE EVERYDAY EDIT</h3></div>
+              <button class="community-wall__toggle" id="community-wall-toggle" type="button" aria-pressed="false">PAUSE MOTION <span aria-hidden="true">Ⅱ</span></button>
+            </div>
+            <div class="community-wall__viewport" id="community-wall-viewport">
+              <div class="community-wall__belt" id="community-wall-belt">
+                <div class="community-wall__group" id="community-wall-original">
+              <article class="community-wall-card" aria-label="ZOLV lifestyle editorial photo 01; not a customer review">
+                <img src="assets/images/community/zolv-lifestyle-01.webp" alt="ZOLV lifestyle photo concept" width="400" height="280" loading="lazy" decoding="async">
+                <div class="community-wall-card__text"><span class="community-wall-card__kicker">EDITORIAL PHOTO STORY</span><strong>Morning ritual</strong><small>Energy vibe · EDITORIAL</small></div>
+              </article>
+              <article class="community-wall-card" aria-label="ZOLV lifestyle editorial photo 02; not a customer review">
+                <img src="assets/images/community/zolv-lifestyle-02.webp" alt="ZOLV lifestyle photo concept" width="400" height="280" loading="lazy" decoding="async">
+                <div class="community-wall-card__text"><span class="community-wall-card__kicker">EDITORIAL PHOTO STORY</span><strong>Focused moments</strong><small>Find your flow · EDITORIAL</small></div>
+              </article>
+              <article class="community-wall-card" aria-label="ZOLV lifestyle editorial photo 03; not a customer review">
+                <img src="assets/images/community/zolv-lifestyle-03.webp" alt="ZOLV lifestyle photo concept" width="400" height="280" loading="lazy" decoding="async">
+                <div class="community-wall-card__text"><span class="community-wall-card__kicker">EDITORIAL PHOTO STORY</span><strong>Weekend mode</strong><small>Made to move · EDITORIAL</small></div>
+              </article>
+              <article class="community-wall-card" aria-label="ZOLV lifestyle editorial photo 04; not a customer review">
+                <img src="assets/images/community/zolv-lifestyle-04.webp" alt="ZOLV lifestyle photo concept" width="400" height="280" loading="lazy" decoding="async">
+                <div class="community-wall-card__text"><span class="community-wall-card__kicker">EDITORIAL PHOTO STORY</span><strong>After dark</strong><small>Your pace · EDITORIAL</small></div>
+              </article>
+              <article class="community-wall-card" aria-label="ZOLV lifestyle editorial photo 05; not a customer review">
+                <img src="assets/images/community/zolv-lifestyle-05.webp" alt="ZOLV lifestyle photo concept" width="400" height="280" loading="lazy" decoding="async">
+                <div class="community-wall-card__text"><span class="community-wall-card__kicker">EDITORIAL PHOTO STORY</span><strong>Breathe &amp; reset</strong><small>Everyday balance · EDITORIAL</small></div>
+              </article>
+                </div>
+              </div>
+            </div>
+            <p class="community-wall__disclaimer">Images are editorial brand concepts, not customer testimonials or endorsements. The separate interactive rating panel is a UI demonstration only; publish real ratings only after verification and consent.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <dialog class="community-lightbox" id="community-photo-dialog" aria-labelledby="community-photo-title">
+      <button class="community-lightbox__close" id="community-photo-close" type="button" aria-label="Close photo story">×</button>
+      <div class="community-lightbox__visual"><img id="community-photo-image" src="assets/images/community/zolv-lifestyle-01.webp" alt="ZOLV lifestyle photograph" width="1200" height="780"></div>
+      <div class="community-lightbox__copy"><span>THE ZOLV LIFESTYLE / PHOTO STORY</span><h3 id="community-photo-title">The everyday reset</h3><p id="community-photo-description">Visual story preview. Video playback is not included.</p><strong>ORIGINAL LIFESTYLE IMAGE · NOT A CUSTOMER REVIEW</strong></div>
+    </dialog>
+
+
+    <!-- =============================================================
+         SECTION 09 / V41 — PACKAGING SOFT-EDGE COLOUR SYSTEM
+         Artwork has its own grid row: no overlap with text/CTA.
+         Right display concept contains 30 separately drawn wrappers
+         (8 Energy, 8 Sleep, 7 Focus, 7 NAD+) for review only.
+         Actual retail packaging and product claims await client approval.
+         ============================================================= -->
+    <section class="offer" id="offer" aria-labelledby="offer-title">
+      <svg class="offer__wave offer__wave--top" aria-hidden="true" viewBox="0 0 1440 42" preserveAspectRatio="none" focusable="false"><path d="M0 0 H1440 V19 C1190 15 1020 27 810 21 C570 14 359 29 0 18 Z" fill="#ffffff"/></svg>
+      <div class="offer__stage">
+        <div class="offer__intro">
+          <p class="offer__eyebrow">ZOLV / ORAL DISSOLVING STRIPS</p>
+          <h2 class="offer__headline" id="offer-title">30 STRIPS.<br><span>ONE BOX.</span></h2>
+          <p class="offer__description">One pocket-size flip-top carton concept. Individually wrapped oral strips. Four unmistakable ZOLV colours.</p>
+          <button class="offer__cta" type="button" data-action="shop">EXPLORE THE RANGE <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="offer__benefits" aria-label="Packaging concept features">
+          <div class="offer__benefit"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="6" width="15" height="15" rx="3"/><rect x="28" y="6" width="15" height="15" rx="3"/><rect x="5" y="27" width="15" height="15" rx="3"/><rect x="28" y="27" width="15" height="15" rx="3"/></svg><strong>FOUR<br>FORMULAS</strong></div>
+          <div class="offer__benefit"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="11" y="4" width="26" height="40" rx="5"/><path d="M12 14h24M17 31h14"/><text x="24" y="26" font-size="12" font-weight="900" text-anchor="middle" stroke="none" fill="currentColor">30</text></svg><strong>30 STRIPS<br>PER CARTON</strong></div>
+          <div class="offer__benefit"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="9" width="29" height="26" rx="3"/><path d="M13 17h16m-16 7h16M13 31h16M35 14l7 7v18H20"/></svg><strong>INDIVIDUALLY<br>WRAPPED</strong></div>
+          <div class="offer__benefit"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="3" width="24" height="42" rx="7"/><path d="M17 9h14M17 38h14M21 5h6"/></svg><strong>POCKET-SIZE<br>FORMAT</strong></div>
+        </div>
+        <div class="offer__visuals" aria-label="ZOLV packaging concept collection">
+          <div class="offer__products" aria-label="Four ZOLV formulas with matching sachets">
+            <img src="assets/images/offer/v36/zolv-energy-carton-sachet.webp" srcset="assets/images/offer/v36/zolv-energy-carton-sachet.webp 1x, assets/images/offer/v36/zolv-energy-carton-sachet-2x.webp 2x" width="1205" height="1306" alt="Energy lime carton and individual oral strip sachet" loading="lazy" decoding="async">
+            <img src="assets/images/offer/v36/zolv-sleep-carton-sachet.webp" srcset="assets/images/offer/v36/zolv-sleep-carton-sachet.webp 1x, assets/images/offer/v36/zolv-sleep-carton-sachet-2x.webp 2x" width="774" height="838" alt="Sleep lavender carton and individual oral strip sachet" loading="lazy" decoding="async">
+            <img src="assets/images/offer/v36/zolv-focus-carton-sachet.webp" srcset="assets/images/offer/v36/zolv-focus-carton-sachet.webp 1x, assets/images/offer/v36/zolv-focus-carton-sachet-2x.webp 2x" width="787" height="887" alt="Focus pink carton and individual oral strip sachet" loading="lazy" decoding="async">
+            <img src="assets/images/offer/v36/zolv-nad-carton-sachet.webp" srcset="assets/images/offer/v36/zolv-nad-carton-sachet.webp 1x, assets/images/offer/v36/zolv-nad-carton-sachet-2x.webp 2x" width="1205" height="1306" alt="NAD+ blue carton and individual oral strip sachet" loading="lazy" decoding="async">
+          </div>
+          <figure class="offer__box-panel">
+            <img src="assets/images/offer/v40/zolv-display-box-right.webp"
+                 srcset="assets/images/offer/v40/zolv-display-box-right.webp 1x, assets/images/offer/v40/zolv-display-box-right-2x.webp 2x"
+                 width="1254" height="1254" alt="Open ZOLV display box featuring mixed-colour ZOLV oral dissolving strip sachets in four formula colours" loading="lazy" decoding="async">
+            <figcaption class="offer__visually-hidden">Illustrative display box concept with mixed-colour ZOLV sachets in four formulas.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <p class="offer__legal">Packaging concept only. The mixed-colour display is not a retail carton. Individual packs are proposed as 30 wrapped strips each; physical capacity, dimensions, active ingredients, print dielines and regulatory claims await approval.</p>
+      <svg class="offer__wave offer__wave--bottom" aria-hidden="true" viewBox="0 0 1440 48" preserveAspectRatio="none" focusable="false"><path d="M0 20 C230 11 402 14 610 22 C839 29 1090 11 1290 17 C1351 18 1393 19 1440 21 V48 H0 Z" fill="#f6f6f2"/></svg>
+    </section>
+
+
+    <!-- ==============================================================
+         SECTION 10 / ZOLV PREMIUM FAQ — V21
+         Native semantic <details> accordions (functional without JS).
+         JS enhances to one-open-at-a-time + reveal extra questions.
+         No claims of verified safety, worldwide shipping or offer terms.
+         ============================================================== -->
+    <section class="faq" id="faq" aria-labelledby="faq-title" data-faq-section data-show-all="false">
+      <div class="faq__container">
+        <div class="faq__intro">
+          <p class="faq__eyebrow"><span class="faq__eyebrow-dot" aria-hidden="true"></span> THE ZOLV GUIDE <span class="faq__eyebrow-separator" aria-hidden="true">/</span> GOOD TO KNOW</p>
+          <h2 class="faq__title" id="faq-title">ANY LAST<br><span>QUESTIONS<span class="faq__punctuation">?</span></span></h2>
+          <div class="faq__headline-rule" aria-hidden="true"><span></span><span></span></div>
+          <p class="faq__description">The little details make a big difference. Here’s what to know about your ZOLV routine.</p>
+          <button class="faq__cta" type="button" id="faq-view-all" aria-controls="faq-list" aria-expanded="false">
+            <span class="faq__cta-text">VIEW ALL FAQS</span>
+            <span class="faq__cta-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="faq__micro" aria-label="ZOLV support"><span class="faq__micro-mark" aria-hidden="true">✳</span><span>SMALL STRIP.<br><strong>ALL THE ANSWERS.</strong></span></div>
+        </div>
+        <div class="faq__panel">
+          <div class="faq__panel-head"><span>YOUR QUESTIONS, ANSWERED.</span><span class="faq__panel-index">01 <span aria-hidden="true">/</span> 07</span></div>
+          <div class="faq__list" id="faq-list">
+            <details class="faq__item" data-faq-item open>
+              <summary class="faq__question">
+                <span class="faq__number" aria-hidden="true">01</span>
+                <span class="faq__question-text">How do ZOLV strips work?</span>
+                <span class="faq__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+              </summary>
+              <div class="faq__answer"><p>Peel open an individual sachet, place one thin strip on your tongue, and let it dissolve. Check the instructions for your chosen formula before use.</p></div>
+            </details>
+            <details class="faq__item" data-faq-item>
+              <summary class="faq__question">
+                <span class="faq__number" aria-hidden="true">02</span>
+                <span class="faq__question-text">Are ZOLV strips safe?</span>
+                <span class="faq__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+              </summary>
+              <div class="faq__answer"><p>Each formula contains different ingredients. Read the final label and any precautions carefully. If you take medication, have a medical condition, are pregnant or nursing, or are unsure whether an ingredient is suitable for you, ask a healthcare professional first.</p></div>
+            </details>
+            <details class="faq__item" data-faq-item>
+              <summary class="faq__question">
+                <span class="faq__number" aria-hidden="true">03</span>
+                <span class="faq__question-text">Do ZOLV strips contain sugar?</span>
+                <span class="faq__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+              </summary>
+              <div class="faq__answer"><p>The current ZOLV range is designed around a no-sugar concept. Ingredient and nutrition information must be confirmed on each final product label before purchase.</p></div>
+            </details>
+            <details class="faq__item" data-faq-item>
+              <summary class="faq__question">
+                <span class="faq__number" aria-hidden="true">04</span>
+                <span class="faq__question-text">Can I take more than one strip per day?</span>
+                <span class="faq__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+              </summary>
+              <div class="faq__answer"><p>Always follow the serving instructions for your specific formula. Do not exceed the recommended serving; some variants may contain active ingredients such as caffeine or melatonin.</p></div>
+            </details>
+            <details class="faq__item" data-faq-item>
+              <summary class="faq__question">
+                <span class="faq__number" aria-hidden="true">05</span>
+                <span class="faq__question-text">Do you ship internationally?</span>
+                <span class="faq__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+              </summary>
+              <div class="faq__answer"><p>Shipping destinations, delivery times and charges will be displayed once ordering is available. International availability has not yet been confirmed.</p></div>
+            </details>
+            <details class="faq__item faq__item--extra" data-faq-item>
+              <summary class="faq__question">
+                <span class="faq__number" aria-hidden="true">06</span>
+                <span class="faq__question-text">Which ZOLV formula should I choose?</span>
+                <span class="faq__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+              </summary>
+              <div class="faq__answer"><p>Explore Energy, Sleep, Focus and NAD+ above to compare their intended routines and proposed ingredients. Use the final product labels to check the exact formulation and suitability.</p></div>
+            </details>
+            <details class="faq__item faq__item--extra" data-faq-item>
+              <summary class="faq__question">
+                <span class="faq__number" aria-hidden="true">07</span>
+                <span class="faq__question-text">Can I get ZOLV launch updates?</span>
+                <span class="faq__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+              </summary>
+              <div class="faq__answer"><p>Use GET UPDATES above to preview the signup flow. A real mailing list needs an approved privacy policy and connected email service before it can collect addresses.</p></div>
+            </details>
+          </div>
+          <div class="faq__panel-foot"><span class="faq__panel-foot-rule" aria-hidden="true"></span><p>MORE QUESTIONS? <a href="#how-it-works">SEE HOW IT WORKS <span aria-hidden="true">↗</span></a></p></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       SECTION 11 — FOOTER / V23
+       Approved smooth-edge transparent silver logo, single dark body colour,
+       subtle tongue photo accent, real footer controls and chat preview.
+       All other sections are unchanged.
+       ============================================================ -->
+  <footer class="zolv-footer" id="footer" aria-label="ZOLV website footer">
+    <svg class="zolv-footer__edge" viewBox="0 0 1440 57" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 0h1440v15C1190 51 1040 39 833 25 653 14 532 6 340 29 180 54 104 15 0 31Z" fill="#f6f6f2"/></svg>
+    <div class="zolv-footer__tongue" aria-hidden="true"></div>
+    <div class="zolv-footer__inner">
+      <div class="zolv-footer__main">
+        <div class="zolv-footer__brand-col">
+          <a class="zolv-footer__logo" href="#top" aria-label="ZOLV — back to top">
+            <img src="assets/images/footer/zolv-silver-smooth-logo.png"
+                 srcset="assets/images/footer/zolv-silver-smooth-logo.png 1x, assets/images/footer/zolv-silver-smooth-logo-2x.png 2x"
+                 width="600" height="200" decoding="async" loading="lazy" alt="ZOLV" />
+          </a>
+          <p class="zolv-footer__tagline">PEEL. PLACE. ZOLV.</p>
+          <div class="zolv-footer__social" aria-label="Social channels (launch preview)">
+            <button type="button" class="zolv-footer__social-icon" data-footer-info="Instagram" aria-label="Instagram channel information" title="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="fill-dot" cx="17.5" cy="6.8" r="1"/></svg>
+            </button>
+            <button type="button" class="zolv-footer__social-icon" data-footer-info="TikTok" aria-label="TikTok channel information" title="TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.3 3.4v11.2a3.6 3.6 0 1 1-3.3-3.6"/><path d="M13.3 4c1 3.1 3.2 4.7 6.3 4.8"/></svg>
+            </button>
+            <button type="button" class="zolv-footer__social-icon" data-footer-info="YouTube" aria-label="YouTube channel information" title="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.3" y="5.3" width="19.4" height="13.4" rx="4.2"/><path class="fill-dot" d="m10 9 5.5 3-5.5 3Z"/></svg>
+            </button>
+            <button type="button" class="zolv-footer__social-icon" data-footer-info="Spotify" aria-label="Spotify channel information" title="Spotify">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.3"/><path d="M6.9 9c4.3-1.1 8.3-.5 11.4 1.1M7.6 12.4c3.5-.8 7-.3 9.6.9M8.2 15.7c2.8-.6 5.5-.2 7.7.8"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <nav class="zolv-footer__links" aria-label="Footer shop links">
+          <h2>SHOP</h2>
+          <ul>
+            <li><button type="button" data-footer-sku="Energy">Energy</button></li>
+            <li><button type="button" data-footer-sku="Sleep">Sleep</button></li>
+            <li><button type="button" data-footer-sku="Focus">Focus</button></li>
+            <li><button type="button" data-footer-sku="NAD+">NAD+</button></li>
+            <li><a href="#collection">All Products</a></li>
+          </ul>
+        </nav>
+        <nav class="zolv-footer__links" aria-label="Footer learn links">
+          <h2>LEARN</h2>
+          <ul>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><button type="button" data-footer-info="Journal">Journal</button></li>
+          </ul>
+        </nav>
+        <nav class="zolv-footer__links" aria-label="Footer company links">
+          <h2>COMPANY</h2>
+          <ul>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#lifestyle">Lifestyle Stories</a></li>
+            <li><button type="button" data-footer-info="Contact">Contact</button></li>
+            <li><button type="button" data-footer-info="Wholesale">Wholesale</button></li>
+          </ul>
+        </nav>
+        <div class="zolv-footer__signup">
+          <h2>STAY IN THE LOOP</h2>
+          <p>Get first looks at what’s next, new drops and moments worth keeping.</p>
+          <form class="zolv-footer__form" id="zolv-footer-signup">
+            <label class="sr-only" for="zolv-footer-email">Email address</label>
+            <input id="zolv-footer-email" name="email" type="email" autocomplete="email" placeholder="Your email" required maxlength="254" />
+            <button type="submit" aria-label="Continue to email signup preview" title="Continue signup">&rarr;</button>
+          </form>
+          <p class="zolv-footer__signup-note" id="zolv-footer-message" role="status" aria-live="polite">Signup preview · mailing list not connected yet.</p>
+        </div>
+      </div>
+      <div class="zolv-footer__bottom">
+        <p>© <span id="zolv-footer-year">2026</span> ZOLV. All rights reserved.</p>
+        <a class="zolv-footer__back-to-top" href="#top" aria-label="Back to top of page">BACK TO TOP <span aria-hidden="true">↑</span></a>
+        <nav class="zolv-footer__legal" aria-label="Legal and customer care">
+          <button type="button" data-footer-info="Privacy Policy">Privacy Policy</button>
+          <button type="button" data-footer-info="Terms of Service">Terms of Service</button>
+          <button type="button" data-footer-info="Shipping">Shipping</button>
+          <button type="button" data-footer-info="Returns">Returns</button>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Accessible floating back-to-top appears after scrolling; stays clear of live chat. -->
+  <button class="zolv-back-top--floating" id="zolv-back-top" type="button" aria-label="Back to top" title="Back to top" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m-7 7 7-7 7 7"/></svg>
+  </button>
+
+  <!-- SECTION 12 / Floating message preview: never imply a live agent connection. -->
+  <div class="zolv-chat" id="zolv-chat">
+    <button class="zolv-chat__launcher" id="zolv-chat-launcher" type="button" aria-label="Open ZOLV message panel" aria-controls="zolv-chat-panel" aria-expanded="false">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20.5 11.4c0 4.7-3.8 8.3-8.5 8.3-1.1 0-2.1-.2-3.1-.6l-4.7 1.3 1.4-4.3a8.1 8.1 0 0 1-2-5.2C3.6 6.5 7.3 3 12 3s8.5 3.6 8.5 8.4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 11.5h8M8 14.5h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <span class="zolv-chat__badge" aria-hidden="true"></span>
+    </button>
+    <section class="zolv-chat__panel" id="zolv-chat-panel" aria-labelledby="zolv-chat-heading" aria-describedby="zolv-chat-status" hidden>
+      <div class="zolv-chat__head">
+        <span class="zolv-chat__glyph" aria-hidden="true">Z</span>
+        <div><h2 id="zolv-chat-heading">ZOLV messages</h2><p id="zolv-chat-status">Chat preview · not connected to live support</p></div>
+        <button class="zolv-chat__close" id="zolv-chat-close" aria-label="Close messages" type="button">×</button>
+      </div>
+      <div class="zolv-chat__feed" id="zolv-chat-feed" role="log" aria-live="polite" aria-relevant="additions text">
+        <p class="zolv-chat__bubble zolv-chat__bubble--support">Hey there 👋 Questions about ZOLV? Explore a topic below. This is a website preview; no messages are delivered to a team.</p>
+      </div>
+      <div class="zolv-chat__topics" id="zolv-chat-topics" aria-label="Suggested questions">
+        <button type="button" data-chat-topic="formulas">Our formulas</button>
+        <button type="button" data-chat-topic="how">How it works</button>
+        <button type="button" data-chat-topic="delivery">Shipping &amp; returns</button>
+      </div>
+      <form class="zolv-chat__composer" id="zolv-chat-form">
+        <label class="sr-only" for="zolv-chat-input">Write a message (local preview only)</label>
+        <input type="text" id="zolv-chat-input" maxlength="400" autocomplete="off" placeholder="Write a message…" required>
+        <button aria-label="Add message to local preview" type="submit"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3 11 18-8-8 18-2.5-7.5L3 11Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m10.5 13.5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button>
+      </form>
+      <p class="zolv-chat__notice">PREVIEW ONLY — Messages are not sent or stored.</p>
+    </section>
+  </div>
+
+  <!-- Accessible functional dialogs are separated from visual content. -->
+  <dialog class="ui-dialog" id="site-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" id="dialog-close" aria-label="Close dialog">×</button>
+    <div class="ui-dialog__content" id="dialog-content"></div>
+  </dialog>
+
+  <template id="tpl-collection">
+    <p class="dialog-eyebrow">THE ZOLV COLLECTION</p>
+    <h2 class="dialog-heading" id="dialog-title">FOUR WAYS TO <em>FEEL MORE.</em></h2>
+    <p class="dialog-copy">Explore the proposed range of individually wrapped oral films.</p>
+    <div class="sku-grid">
+      <button data-sku="Energy" style="--sku:#d9ff22"><b>ENERGY</b><span>Daily energy ritual</span><small>VIEW DETAILS ↗</small></button>
+      <button data-sku="Sleep" style="--sku:#ac77ed"><b>SLEEP</b><span>Evening ritual</span><small>VIEW DETAILS ↗</small></button>
+      <button data-sku="Focus" style="--sku:#ff6b9e"><b>FOCUS</b><span>Focus ritual</span><small>VIEW DETAILS ↗</small></button>
+      <button data-sku="NAD+" style="--sku:#60b7fa"><b>NAD+</b><span>Daily wellness ritual</span><small>VIEW DETAILS ↗</small></button>
+    </div>
+  </template>
+</body>
+</html>

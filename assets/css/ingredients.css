@@ -1,0 +1,41 @@
+/* ========================================================================
+   ZOLV / SECTION 05 — PURPOSEFUL INGREDIENTS — V11
+   Self-contained visual system; no changes to approved Sections 01–04.
+   All typography/callouts are live DOM, the still-life is retina-ready WebP.
+   ======================================================================== */
+.ingredients-section{--is-ink:#090a0b;position:relative;isolation:isolate;overflow:hidden;padding:clamp(36px,4.5vw,78px) clamp(19px,3.2vw,62px) clamp(32px,3vw,50px);background:linear-gradient(180deg,#fafaf7 0%,#fafaf7 66%,#f6f6f2 100%);color:var(--is-ink)}
+.ingredients-section__inner{display:grid;grid-template-columns:minmax(320px,.39fr) minmax(0,.61fr);gap:clamp(20px,3vw,60px);align-items:center;max-width:1660px;margin:0 auto;position:relative;z-index:1;min-height:clamp(340px,23.5vw,430px)}
+.ingredients-section__intro{align-self:center;position:relative;z-index:5;padding:14px 0 22px}
+.ingredients-section__eyebrow{margin:0 0 18px;font-size:clamp(10px,.8vw,13px);letter-spacing:.25em;font-weight:900;color:#566226}
+.ingredients-section__headline{font-family:var(--font-display,Impact,sans-serif);font-size:clamp(41px,4.25vw,74px);font-weight:950;letter-spacing:-.065em;line-height:.93;font-style:italic;transform:skew(-4deg);transform-origin:left center;margin:0 0 23px;max-width:590px}
+.ingredients-section__description{font-size:clamp(15px,1.14vw,19px);line-height:1.42;margin:0 0 24px;color:#343434;max-width:390px}
+.ingredients-section__cta{display:inline-flex;align-items:center;justify-content:space-between;gap:22px;min-height:50px;max-width:100%;padding:13px 20px 13px 24px;border:0;border-radius:999px;color:#fff;background:#08090a;cursor:pointer;font-size:clamp(11px,.82vw,13px);font-weight:900;letter-spacing:.02em;text-align:left;transition:background-color .18s,transform .18s}
+.ingredients-section__cta svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ingredients-section__cta:hover{background:#344300;transform:translateY(-2px)}
+.ingredients-section__cta:focus-visible,.ingredient-chip:focus-visible{outline:3px solid #8b27d4;outline-offset:4px}
+.ingredients-section__showcase{position:relative;min-width:0;min-height:clamp(330px,24vw,430px);display:grid;grid-template-rows:1fr 1fr 1fr;align-items:center}
+.ingredients-section__photography{display:block;position:absolute;z-index:0;left:-6%;right:-5%;bottom:16%;width:112%;height:auto;pointer-events:none}
+.ingredients-section__photography img{width:100%;height:auto;display:block;object-fit:contain;filter:drop-shadow(0 15px 18px rgba(16,32,5,.06))}
+.ingredient-callouts{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.2vw,20px);align-items:start}
+.ingredient-callouts--top{align-self:start;padding-top:8px}
+.ingredient-callouts--bottom{grid-row:3;align-self:end;padding-bottom:10px}
+.ingredient-chip{border:1px solid rgba(0,0,0,.035);box-shadow:0 9px 23px rgba(23,34,28,.07);background:rgba(255,255,255,.86);backdrop-filter:blur(7px);color:#0b0b0b;border-radius:13px;padding:10px clamp(9px,1vw,17px);width:fit-content;min-width:min(100%,124px);max-width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;cursor:pointer;position:relative;transition:transform .2s,box-shadow .2s}
+.ingredient-chip:hover{transform:translateY(-3px);box-shadow:0 11px 24px rgba(23,34,28,.14)}
+.ingredient-chip strong{font-weight:950;font-size:clamp(12px,1vw,17px);letter-spacing:-.025em;line-height:1.05}
+.ingredient-chip span{font-size:clamp(10px,.75vw,13px);color:#434d4c;line-height:1.2}
+.ingredient-chip:after{content:"";position:absolute;left:50%;top:100%;width:1.5px;height:clamp(12px,2.35vw,38px);background:#8cc500;opacity:.7}
+.ingredient-chip:before{content:"";position:absolute;width:8px;height:8px;left:calc(50% - 3px);top:calc(100% + clamp(10px,2.35vw,36px));background:#b4ec12;border:1px solid white;border-radius:50%}
+.ingredient-callouts--bottom .ingredient-chip:after{top:auto;bottom:100%;height:clamp(10px,1.4vw,25px)}
+.ingredient-callouts--bottom .ingredient-chip:before{top:auto;bottom:calc(100% + clamp(8px,1.4vw,23px))}
+.ingredient-chip--taurine:after,.ingredient-chip--taurine:before{background:#f87b5f}
+.ingredient-chip--melatonin:after,.ingredient-chip--melatonin:before{background:#a579ff}
+.ingredient-chip--theanine:after,.ingredient-chip--theanine:before{background:#4a9f72}
+.ingredient-chip--gpc:after,.ingredient-chip--gpc:before{background:#fb72bb}
+.ingredient-chip--resveratrol:after,.ingredient-chip--resveratrol:before{background:#65a6ed}
+/* V25: previous clipped wash removed; transition now drawn once by the next section. */
+.ingredients-section__disclaimer{max-width:1660px;margin:0 auto;position:relative;z-index:1;font-size:10px;line-height:1.4;letter-spacing:.01em;color:#747a78;max-width:920px;text-align:center}
+@media(min-width:1600px){.ingredients-section__photography{bottom:17%}}
+@media(max-width:1100px){.ingredients-section__inner{grid-template-columns:minmax(270px,.41fr) minmax(0,.59fr);gap:10px}.ingredients-section__headline{font-size:clamp(37px,4.5vw,50px)}.ingredients-section__showcase{min-height:360px}.ingredients-section__photography{left:-4%;width:111%;bottom:24%}.ingredient-chip{padding:10px 8px}.ingredient-chip strong{font-size:12px}.ingredient-chip span{font-size:10px}}
+@media(max-width:760px){.ingredients-section{padding:38px 20px 46px}.ingredients-section__inner{display:block;min-height:0}.ingredients-section__intro{padding:0}.ingredients-section__headline{font-size:clamp(42px,7.5vw,59px);margin-bottom:15px}.ingredients-section__description{font-size:15px}.ingredients-section__cta{min-height:47px;margin-top:0}.ingredients-section__showcase{margin-top:14px;min-height:350px;grid-template-rows:94px 145px 107px}.ingredients-section__photography{width:110%;left:-5%;right:auto;bottom:26%}.ingredient-callouts{gap:7px}.ingredient-callouts--top{padding-top:8px}.ingredient-callouts--bottom{padding-bottom:4px}.ingredient-chip{border-radius:9px;min-width:0;padding:9px 7px;width:100%}.ingredient-chip strong{font-size:11px}.ingredient-chip span{font-size:10px}.ingredient-chip:after{height:14px}.ingredient-chip:before{top:calc(100% + 12px)}.ingredient-callouts--bottom .ingredient-chip:after{height:13px}.ingredient-callouts--bottom .ingredient-chip:before{bottom:calc(100% + 11px)}}
+@media(max-width:470px){.ingredients-section{padding:34px 14px 42px}.ingredients-section__eyebrow{letter-spacing:.18em}.ingredients-section__headline{font-size:clamp(33px,9vw,42px);line-height:.97;letter-spacing:-.063em}.ingredients-section__description{font-size:14px;margin-bottom:18px}.ingredients-section__cta{width:auto;font-size:11px;padding:12px 16px 12px 20px}.ingredients-section__showcase{min-height:320px;grid-template-rows:94px 126px 100px}.ingredients-section__photography{width:117%;left:-9%;bottom:30%}.ingredient-chip{padding:9px 6px;min-height:46px}.ingredient-chip strong{font-size:10px;letter-spacing:-.02em}.ingredient-chip span{font-size:9px}.ingredients-section__disclaimer{font-size:9px;line-height:1.35}}
+@media(prefers-reduced-motion:reduce){.ingredients-section__cta,.ingredient-chip{transition:none}}
